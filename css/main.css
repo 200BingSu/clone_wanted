@@ -1,0 +1,166 @@
+.main {
+}
+.main-layout {
+  padding-top: 36px;
+}
+
+/* 메인 상단 */
+.main-top {
+}
+/* 팁 */
+.main-top .tip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(111, 114, 123, 0.04);
+  border-radius: 16px;
+  width: 500px;
+  height: 58px;
+  margin: 0 auto;
+}
+.main-top .tip .tip-img {
+  background-color: gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.main-top .tip .tip-img img {
+}
+.main-top .tip .tip-sentence {
+}
+.main-top .tip .tip-sentence span {
+  color: #0066ff;
+  font-size: 15px;
+  font-weight: 600;
+}
+/* 카테고리 */
+.main-top .category-wrap {
+  height: 100px;
+  display: flex;
+  padding: 24px 8px 8px 12px;
+}
+.main-top .category-wrap .category {
+  width: 116px;
+  align-content: center;
+  justify-items: center;
+}
+
+.main-top .category-wrap .category a {
+  display: block;
+}
+
+.main-top .category-wrap .category .cate-img {
+  width: 56px;
+  height: 56px;
+  background-color: gray;
+}
+.main-top .category-wrap .category .cate-img img {
+}
+.main-top .category-wrap .category .cate-title {
+  width: 45px;
+  height: 18px;
+}
+
+/* 메인 내용 */
+.main-content {
+}
+/* 인기 구직 */
+.popular-job-box {
+  height: 274px;
+}
+.box-top {
+}
+.box-top .box-title {
+}
+.box-top .left-button {
+}
+.box-top .right-button {
+}
+.box-content-wrap {
+}
+.box-content-wrap .box-img {
+}
+.box-content-wrap .box-img img {
+}
+.box-content-wrap .box-info {
+}
+.box-content-wrap .box-info .job-pass {
+}
+.box-content-wrap .box-info .bookmark {
+}
+.box-content-wrap .box-info .job-name {
+}
+.box-content-wrap .box-info .job-company {
+}
+
+/* 카드 뉴스 */
+.card-news-box {
+}
+.card-news-top {
+}
+.card-news-top .card-news-title {
+}
+.card-news-top .left-button {
+}
+.card-news-top .right-button {
+}
+.card-news-wrap {
+}
+.card-news-wrap .card-news-img {
+}
+.card-news-wrap .card-news-img img {
+}
+.card-news-wrap .card-news-info {
+}
+.card-news-wrap .card-news-info .card-news-title {
+}
+
+/* 테마별 회사/포지션 */
+.theme-position-box {
+}
+.theme-position-top {
+}
+.theme-position-top .theme-position-title {
+}
+.theme-position-top .left-button {
+}
+.theme-position-top .right-button {
+}
+.theme-position-wrap .theme-position-wrap .theme-position-img {
+}
+.theme-position-wrap .theme-position-img img {
+}
+.theme-position-wrap .theme-position-info {
+}
+.theme-position-wrap .theme-position-info .theme-position-title {
+}
+.theme-position-wrap .theme-position-info .theme-position-company {
+}
+
+/* 역세권 포지션 */
+.station-position-box {
+}
+.station-position-top {
+}
+.station-position-top .station-position-title {
+}
+.station-position-top .gangnam {
+}
+.station-position-top .left-button {
+}
+.station-position-top .right-button {
+}
+.theme-position-wrap {
+}
+.station-position-wrap .station-position-img {
+}
+.station-position-wrap .station-position-img img {
+}
+.station-position-wrap .station-position-info {
+}
+.station-position-wrap .station-position-info .station-position-title {
+}
+.station-position-wrap .station-position-info .station-position-info {
+}
+/* 요즘 뜨는 포지션(인기 구직과 동일 레이아웃) */

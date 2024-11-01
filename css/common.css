@@ -4,4 +4,22 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  color: #000;
+  font-family: "Pretendard", sans-serif;
+}
+
+body {
+  font-family: "Pretendard", sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  /* font-family: "Pretendard", sans-serif; */
+}
+
+.layout {
+  max-width: 1060px;
+  margin: 0 auto;
 }

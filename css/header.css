@@ -1,11 +1,92 @@
 .header {
-  width: 100%;
-  height: 56px;
-  background-color: aquamarine;
-  border-bottom: 1px solid gray;
+  height: 60px;
+  border-bottom: 0.5px solid #d4d4d4;
 }
 .header-layout {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 헤더 좌측 */
+.header-left {
+  display: flex;
+  align-items: center;
+}
+.header-left .header-logo {
+  width: 152px;
+  height: 32px;
+  padding-right: 40px;
+}
+.header-left .header-logo a {
+  display: inline-block;
+}
+.header-left .header-logo img {
   width: 100%;
   height: 100%;
+}
+.header-left .header-menu-wrap {
   display: flex;
+  width: 478px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left .header-menu-wrap .header-menu a {
+  color: #333;
+  /* index 순서가 괜찮다고 생각했는데 개발자 도구에서는 아니라고 합니다 */
+  font-weight: 600;
+  font-size: 15px;
+}
+.header-menu-icon {
+  display: flex;
+  align-items: center;
+}
+.header-menu-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+/* 헤더 좌측 */
+.header-right {
+  display: flex;
+  width: 262px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right .search {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+.header-right .search img {
+  width: 24px;
+  height: 24px;
+}
+.header-right .private-box {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+.header-right .private-box .login {
+  display: inline-block;
+  width: 113px;
+  height: 32px;
+  border: 1px solid #d4d4d4;
+  color: rgb(0, 102, 255);
+  font-size: 13px;
+  text-align: center;
+  border-radius: 8px;
+  align-content: center;
+}
+.header-right .private-box .company-service {
+  display: inline-block;
+  width: 88px;
+  border: 1px solid #d4d4d4;
+  color: rgb(23, 23, 25);
+  font-size: 13px;
+  text-align: center;
+  border-radius: 8px;
+  align-content: center;
 }

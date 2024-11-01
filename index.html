@@ -3,51 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wanted</title>
+    <title>clone_wanted</title>
+    <link
+      rel="stylesheet"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
+    <!-- 상단 -->
     <header class="header">
-      <div class="header-layout">
+      <div class="header-layout layout">
         <!-- 좌측 -->
-        <div class="left">
+        <div class="header-left">
           <!--로고-->
           <div class="header-logo">
-            <a href="/">로고 이미지</a>
+            <a href="/"
+              ><img src="./images/svg/wanted_logo.svg" alt="완티드 로고"
+            /></a>
           </div>
           <!-- 상단 메뉴-->
           <ul class="header-menu-wrap">
-            <li class="header-menu"><a href="#">채용</a>
-            <li class="header-menu"><a href="#">커리어</a>
-            <li class="header-menu"><a href="#">소셜</a>
-            <li class="header-menu"><a href="#">이력서</a>
-            <li class="header-menu"><a href="#">프리랜서</a>
-            <li class="header-menu"><a href="#">더보기</a>
+            <li class="header-menu">
+              <a href="#" class="header-menu-icon">
+                <img src="./images/svg/menubar.svg" alt="메뉴바" />채용</a
+              >
+            </li>
+            <li class="header-menu"><a href="#">커리어</a></li>
+            <li class="header-menu"><a href="#">소셜</a></li>
+            <li class="header-menu"><a href="#">이력서</a></li>
+            <li class="header-menu"><a href="#">프리랜서</a></li>
+            <li class="header-menu"><a href="#">더보기</a></li>
           </ul>
         </div>
         <!-- 우측-->
-        <div class="right">
+        <div class="header-right">
           <!--검색-->
-          <a href="#" class="search">검색</a>
+          <button class="search">
+            <img src="./images/svg/svg-image-4.svg" alt="돋보기" />
+          </button>
           <!--로그인-->
           <div class="private-box">
-            <a href="#" class="="login">회원가입/로그인</a>
+            <a href="#" class="login">회원가입/로그인</a>
             <a href="#" class="company-service">기업 서비스</a>
           </div>
         </div>
       </div>
     </header>
+    <!-- 중간 -->
     <main class="main">
-      <div class="layout">
+      <div class="main-layout layout">
         <!--메인 상단-->
         <div class="main-top">
           <!-- 팁 -->
           <a href="#" class="tip">
             <div class="tip-img">
-              <img src="#" alt="팁 이미지" />
+              <!-- <img src="#" alt="팁 이미지" /> -->
             </div>
             <div class="tip-sentence">
               로그인하시면
@@ -58,104 +80,228 @@
           <!-- 카테고리 -->
           <ul class="category-wrap">
             <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">채용공고</span>
+              <a href="#">
+                <div class="cate-img">
+                  <!-- <img src="#" alt="카테고리 이미지" /> -->
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
             </li>
             <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">이력서 관리</span>
+              <a href="#">
+                <div class="cate-img">
+                  <!-- <img src="#" alt="카테고리 이미지" /> -->
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
             </li>
             <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">커리어 조회</span>
+              <a href="#">
+                <div class="cate-img">
+                  <!-- <img src="#" alt="카테고리 이미지" /> -->
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
             </li>
             <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">지원현황</span>
+              <a href="#">
+                <div class="cate-img">
+                  <!-- <img src="#" alt="카테고리 이미지" /> -->
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
             </li>
             <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">커리어 코칭</span>
+              <a href="#">
+                <div class="cate-img">
+                  <!-- <img src="#" alt="카테고리 이미지" /> -->
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
             </li>
             <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">다음 커리어 찾기</span>
+              <a href="#">
+                <div class="cate-img">
+                  <!-- <img src="#" alt="카테고리 이미지" /> -->
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
             </li>
             <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">나만의 회사 찾기</span>
+              <a href="#">
+                <div class="cate-img">
+                  <!-- <img src="#" alt="카테고리 이미지" /> -->
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
             </li>
             <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">직군별 연봉</span>
+              <a href="#">
+                <div class="cate-img">
+                  <!-- <img src="#" alt="카테고리 이미지" /> -->
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
             </li>
             <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">원티드 포인트</span>
+              <a href="#">
+                <div class="cate-img">
+                  <!-- <img src="#" alt="카테고리 이미지" /> -->
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
             </li>
           </ul>
         </div>
         <!--메인 내용-->
         <div class="main-content">
-          <!-- 인기 구직 -->
-          <div class="popular-job">
-            <h3>모두가 주목하고 있어요!</h3>
+          <!-- 인기 구직 (4)-->
+          <div class="popular-job-box">
+            <div class="box-top">
+              <h3 class="box-title title">모두가 주목하고 있어요!</h3>
+              <button class="left-button">좌</button>
+              <button class="right-button">우</button>
+            </div>
+            <div class="box-content-wrap">
+              <div class="box-img">이미지</div>
+              <div class="box-info">
+                <span class="job-pass">합격보상금</span>
+                <span class="bookmark">즐겨찾기</span>
+                <span class="job-name">직종</span>
+                <span class="job-company">회사명<br />지역·경력</span>
+              </div>
+            </div>
           </div>
-          <!-- 카드 뉴스 -->
-          <div class="card-news"></div>
-          <!-- 테마별 회사/포지션 -->
-          <div class="theme-position"></div>
-          <!-- 역세권 포지션 -->
-          <div class="station-position"></div>
-          <!-- 요즘 뜨는 포지션 -->
-          <div class="new-job"></div>
+          <!-- 카드 뉴스 (2+~)-->
+          <div class="card-news-box">
+            <div class="card-news-top">
+              <h3 class="card-news-title title">지금 주목할 소식</h3>
+              <button class="left-button">좌</button>
+              <button class="right-button">우</button>
+            </div>
+            <div class="card-news-wrap">
+              <div class="card-news-img"></div>
+              <div class="card-news-info">
+                <span class="card-news-title"></span>
+              </div>
+            </div>
+          </div>
+          <!-- 테마별 회사/포지션(3) -->
+          <div class="theme-position-box">
+            <div class="theme-position-top">
+              <h3 class="theme-position-title title">
+                테마로 살펴보는 회사/포지션
+              </h3>
+              <button class="left-button">좌</button>
+              <button class="right-button">우</button>
+            </div>
+            <div class="theme-position-wrap">
+              <div class="theme-position-img"></div>
+              <div class="theme-position-info">
+                <span class="theme-position-title"></span>
+                <span class="theme-position-company"></span>
+              </div>
+            </div>
+          </div>
+          <!-- 역세권 포지션(6) -->
+          <div class="station-position-box">
+            <div class="station-position-top">
+              <h3 class="station-position-title title">
+                출퇴근 걱정 없는 역세권 포지션
+              </h3>
+              <button class="gangnam">강남역 ▾</button>
+              <button class="left-button">좌</button>
+              <button class="right-button">우</button>
+            </div>
+            <div class="station-position-wrap">
+              <div class="station-position-img"></div>
+              <div class="station-position-info">
+                <span class="station-position-title"></span>
+                <span class="station-position-info"></span>
+              </div>
+            </div>
+          </div>
+          <!-- 요즘 뜨는 포지션(4) -->
+          <div class="new-job-box">
+            <div class="box-top">
+              <h3 class="box-title title">요즘 뜨는 포지션</h3>
+              <button class="left-button">좌</button>
+              <button class="right-button">우</button>
+            </div>
+            <div class="box-content-wrap">
+              <div class="box-img">이미지</div>
+              <div class="box-info">
+                <span class="job-pass">합격보상금</span>
+                <span class="bookmark">즐겨찾기</span>
+                <span class="job-name">직종</span>
+                <span class="job-company">회사명<br />지역·경력</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <!-- 하단 -->
     <footer class="footer">
-      <div class="layout">
+      <div class="footer-layout layout">
         <!-- 푸터 상단 -->
         <div class="footer-top">
           <!-- 푸터 로고 -->
-          <div class="footer-logo"></div>
+          <div class="footer-logo"><img src="#" alt="wnated 로고" /></div>
           <!-- 푸터 메뉴 -->
-          <div class="footer-menu"></div>
+          <div class="footer-menu">
+            <span>기업소개</span>
+            <span>광고문의</span>
+            <span>고객센터</span>
+            <span>이용약관</span>
+            <span>블로그</span>
+            <span>개인정보 처리방침</span>
+          </div>
         </div>
         <!-- 푸터 중간 -->
         <div class="footer-middle">
           <!-- 회사 정보 -->
-          <div class="company-impormation"></div>
+          <div class="company-impormation">
+            <span>(주)원티드랩</span>
+            <span>대표이사 이복기</span><br />
+            <span>서울특별시 송파구 올림픽로 300, 롯데월드 타워 35층</span>
+            <span>전화번호: 02-539-7118</span><br />
+            <span>사업자등록번호: 299-86-00021</span>
+            <span>통신판매번호: 2020-서울송파-3147</span>
+            <span
+              >유료직업소개사업등록번호: (국내)
+              제2020-3230259-14-5-00018호</span
+            >
+          </div>
           <!-- 기타 문의 -->
-          <div class="inquiry"></div>
+          <ul class="inquiry">
+            <li>채용서비스 문의</li>
+            <li>원티드스페이스 문의</li>
+            <li>원티드긱스 문의</li>
+            <li>프리온보딩 문의</li>
+            <li>취업지원시스템 문의</li>
+            <li>IR 문의</li>
+          </ul>
         </div>
         <!-- 푸터 하단 -->
         <div class="footer-bottom">
           <!-- 카피라이트 -->
-          <div class="copy"></div>
+          <div class="copy">
+            <span>© 2024 Wanted Lab, inc.</span>
+          </div>
           <!-- sns 공유 -->
-          <div class="sns"></div>
+          <div class="sns">
+            <div class="insta">인스타</div>
+            <div class="facebook">facebook</div>
+            <div class="youtube">youtube</div>
+            <div class="naver">naver</div>
+            <div class="apple">apple</div>
+            <div class="google">google</div>
+          </div>
         </div>
       </div>
+      <div class="qna-button">문의하기 버튼</div>
     </footer>
     <!--버튼-->
-    <div class="button"></div>
   </body>
 </html>
