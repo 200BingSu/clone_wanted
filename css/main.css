@@ -10,18 +10,18 @@
 /* 팁 */
 .main-top .tip {
   display: flex;
+  width: 500px;
+  height: 58px;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   background-color: rgba(111, 114, 123, 0.04);
   border-radius: 16px;
-  width: 500px;
-  height: 58px;
-  margin: 0 auto;
 }
 .main-top .tip .tip-img {
-  background-color: gray;
   width: 30px;
   height: 30px;
+  background-color: gray;
   border-radius: 50px;
   margin-right: 10px;
 }
@@ -31,23 +31,31 @@
 }
 .main-top .tip .tip-sentence span {
   color: #0066ff;
-  font-size: 15px;
   font-weight: 600;
+  font-size: 15px;
 }
 /* 카테고리 */
 .main-top .category-wrap {
-  height: 100px;
   display: flex;
+  height: 100px;
   padding: 24px 8px 8px 12px;
+  margin-bottom: 40px;
 }
 .main-top .category-wrap .category {
+  display: flex;
   width: 116px;
-  align-content: center;
+  align-content: center; /*이게 적용이 안되고 있는데 왜 센터에 있지..*/
   justify-items: center;
+  flex-direction: column;
+  column-gap: 8px; /*display: block 때문에 적용이 안된다고 뜨는데 a를 flex로 바꿔야하나*/
 }
 
 .main-top .category-wrap .category a {
   display: block;
+  align-content: center;
+  justify-items: center;
+  column-gap: 8px;
+  cursor: pointer;
 }
 
 .main-top .category-wrap .category .cate-img {
@@ -56,10 +64,12 @@
   background-color: gray;
 }
 .main-top .category-wrap .category .cate-img img {
+  object-fit: cover;
 }
 .main-top .category-wrap .category .cate-title {
-  width: 45px;
-  height: 18px;
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 500;
+  font-size: 13px;
 }
 
 /* 메인 내용 */
@@ -67,100 +77,249 @@
 }
 /* 인기 구직 */
 .popular-job-box {
-  height: 274px;
+  height: 274.5px;
 }
 .box-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 .box-top .box-title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-right: 10px;
 }
-.box-top .left-button {
+.box-top .button-box {
+  display: flex;
+  width: 64px;
+  height: 32px;
 }
-.box-top .right-button {
+.button-box .left-button {
+  width: 31px;
+  height: 30px;
+}
+.button-box .right-button {
+  width: 31px;
+  height: 30px;
+}
+.box-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
 }
 .box-content-wrap {
+  display: block;
+  position: relative;
+  width: 250px;
+  height: 100%;
+  cursor: pointer;
 }
 .box-content-wrap .box-img {
+  width: 100%;
+  height: 167.5px;
+  border-radius: 12px;
+  background-color: lightgray;
+  margin-bottom: 12px;
+  /*filter: */
 }
 .box-content-wrap .box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.box-content-wrap .box-info {
+.box-content-wrap .box-info-top {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
 }
-.box-content-wrap .box-info .job-pass {
+.box-content-wrap .box-info-top .job-pass {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
 }
-.box-content-wrap .box-info .bookmark {
+.box-content-wrap .box-info-top .bookmark {
+  /*임시 처리*/
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
 }
-.box-content-wrap .box-info .job-name {
+.box-content-wrap .box-info-bottom {
 }
-.box-content-wrap .box-info .job-company {
+.box-content-wrap .box-info-bottom .job-name {
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  font-size: 16px;
+}
+.box-content-wrap .box-info-bottom .job-company {
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 500;
+  font-size: 13px;
+}
+.box-content-wrap .box-info-bottom .job-etc {
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 500;
+  font-size: 13px;
 }
 
 /* 카드 뉴스 */
-.card-news-box {
+.card-news {
 }
-.card-news-top {
+.card-news-container {
+  display: flex;
+  width: 100%;
+  height: 302px;
+  cursor: pointer;
 }
-.card-news-top .card-news-title {
-}
-.card-news-top .left-button {
-}
-.card-news-top .right-button {
-}
+
 .card-news-wrap {
+  position: relative;
+  width: 436px;
+  height: 290px;
+  border-radius: 12px;
+  background-color: lightgray;
 }
 .card-news-wrap .card-news-img {
+  width: 100%;
+  height: 100%;
 }
 .card-news-wrap .card-news-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .card-news-wrap .card-news-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .card-news-wrap .card-news-info .card-news-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+.card-news-wrap .card-news-info .card-news {
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 /* 테마별 회사/포지션 */
-.theme-position-box {
+.theme-position {
+  height: 312px;
 }
-.theme-position-top {
+.theme-position-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.theme-position-top .theme-position-title {
+.theme-position-wrap {
+  position: relative;
+  width: 340px;
+  height: 260px;
+  border: 1px solid rgba(111, 114, 123, 0.16);
+  border-radius: 12px;
+  background-color: lightgray;
 }
-.theme-position-top .left-button {
+.theme-position-img {
+  width: 100%;
+  height: 100%;
 }
-.theme-position-top .right-button {
+.theme-position-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.theme-position-wrap .theme-position-wrap .theme-position-img {
+.theme-position-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 86px;
+  padding: 20px;
+  background-color: #fff;
 }
-.theme-position-wrap .theme-position-img img {
+.theme-position-info .theme-position-title {
+  color: rgb(23, 23, 25);
+  font-weight: 600;
+  font-size: 17px;
 }
-.theme-position-wrap .theme-position-info {
-}
-.theme-position-wrap .theme-position-info .theme-position-title {
-}
-.theme-position-wrap .theme-position-info .theme-position-company {
+.theme-position-info .theme-position-company {
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 600;
+  font-size: 17px;
 }
 
 /* 역세권 포지션 */
 .station-position-box {
 }
-.station-position-top {
+.box-top-right {
+  display: flex;
+  align-items: center;
 }
-.station-position-top .station-position-title {
+.gangnam {
+  border: 1px solid rgb(23, 23, 25);
+  border-radius: 10px;
+  color: rgb(23, 23, 25);
+  padding: 7px 8px 7px 12px;
 }
-.station-position-top .gangnam {
+.station-position-container {
+  display: flex;
+  height: 330px;
 }
-.station-position-top .left-button {
+.station-position-container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.station-position-top .right-button {
-}
-.theme-position-wrap {
+.station-position-wrap {
+  width: 515px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .station-position-wrap .station-position-img {
+  width: 120px;
+  height: 90px;
+  background-color: lightgray;
+  border-radius: 12px;
 }
-.station-position-wrap .station-position-img img {
+.station-position-img img {
 }
-.station-position-wrap .station-position-info {
+.station-position-wrap .station-position-info-box {
+  height: 66px;
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
 }
-.station-position-wrap .station-position-info .station-position-title {
+.station-position-info-box .station-position-job {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 2px;
 }
-.station-position-wrap .station-position-info .station-position-info {
+.station-position-info .station-position-info {
+}
+.station-position-company {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(55, 56, 60, 0.608);
+}
+.station-position-etc {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(55, 56, 60, 0.608);
+}
+/*.station-bookmark {
+  display: block;
+}*/
+.station-position-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 /* 요즘 뜨는 포지션(인기 구직과 동일 레이아웃) */
