@@ -64,7 +64,6 @@
 .main-top .category-wrap .category .cate-img {
   width: 56px;
   height: 56px;
-  background-color: lightgray;
 }
 .main-top .category-wrap .category .cate-img img {
   width: 100%;
@@ -136,9 +135,11 @@
 .box-thum-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 .box-thum-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .box-thum .box-info-top {
@@ -316,8 +317,11 @@
   height: 90px;
   background-color: lightgray;
   border-radius: 12px;
+  overflow: hidden;
 }
 .station-position-img img {
+  width: 100%;
+  height: 100%;
 }
 .station-position-wrap .station-position-info-box {
   display: flex;
