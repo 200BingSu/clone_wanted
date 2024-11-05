@@ -1,6 +1,6 @@
 .header {
   height: 60px;
-  border-bottom: 0.5px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
 }
 .header-layout {
   display: flex;
@@ -20,34 +20,35 @@
   padding-right: 40px;
 }
 .header-left .header-logo a {
+  width: 100%;
+  height: 100%;
   display: inline-block;
+  cursor: pointer;
 }
 .header-left .header-logo img {
   width: 100%;
   height: 100%;
 }
-.header-left .header-menu-wrap {
+.header-menu-wrap {
   display: flex;
-  width: 478px;
+  width: 477px;
   align-items: center;
   justify-content: space-between;
 }
-.header-left .header-menu-wrap .header-menu a {
+.header-menu-wrap .header-menu {
+}
+.header-menu-wrap .header-menu a {
   color: #333;
-  /* index 순서가 괜찮다고 생각했는데 개발자 도구에서는 아니라고 합니다 */
   font-weight: 600;
   font-size: 15px;
 }
-.header-menu-icon {
+.header-menu-wrap .header-menu .header-menu-icon {
   display: flex;
   align-items: center;
-}
-.header-menu-icon img {
-  width: 20px;
-  height: 20px;
+  justify-content: space-between;
 }
 
-/* 헤더 좌측 */
+/* 헤더 우측 */
 .header-right {
   display: flex;
   width: 262px;

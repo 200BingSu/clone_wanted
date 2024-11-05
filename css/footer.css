@@ -1,50 +1,109 @@
 .footer {
+  border-top: 1px solid #d4d4d4;
 }
 .footer-layout {
+  padding-top: 40px;
+  padding-bottom: 16px;
 }
 
 /* 푸터 상단 */
 .footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .footer-top .footer-logo {
+  width: 132px;
+  height: 32px;
+  background-color: lightgray;
 }
 .footer-top .footer-logo img {
+  width: 100%;
+  height: 100%;
 }
 .footer-top .footer-menu {
+  display: flex;
+  gap: 32px;
 }
-.footer-top .footer-menu span {
+.footer-top .footer-menu li {
+}
+.footer-top .footer-menu li a {
+  color: rgb(51, 51, 51);
+  font-size: 14px;
 }
 
 /* 푸터 중단 */
 .footer-middle {
 }
 .footer-middle .company-impormation {
+  display: flex;
+  height: 70px;
+  margin-top: 28px;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.footer-middle .company-impormation span {
+.footer-middle .company-impormation div span {
+  color: rgba(55, 56, 60, 0.61);
 }
 .footer-middle .inquiry {
+  display: flex;
+  height: 18px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+  gap: 24px;
+}
+.footer-middle .inquiry li a {
+  color: rgba(23, 23, 25, 0.61);
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
 }
 
 /* 푸터 하단 */
 .footer-bottom {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer-bottom .copy {
 }
+.copy span {
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 500;
+  font-size: 13px;
+}
 .footer-bottom .sns {
+  display: flex;
+  align-items: center;
 }
 .footer-bottom .sns .insta {
+  width: 36px;
+  height: 36px;
+  background-color: lightgray;
 }
 .footer-bottom .sns .facebook {
+  width: 36px;
+  height: 36px;
+  background-color: lightgray;
 }
 .footer-bottom .sns .youtube {
+  width: 36px;
+  height: 36px;
+  background-color: lightgray;
 }
 .footer-bottom .sns .naver {
+  width: 36px;
+  height: 36px;
+  background-color: lightgray;
 }
 .footer-bottom .sns .apple {
+  width: 36px;
+  height: 36px;
+  background-color: lightgray;
 }
 .footer-bottom .sns .google {
-}
-
-/* 문의하기 버튼 */
-.qna-button {
+  width: 36px;
+  height: 36px;
+  background-color: lightgray;
 }

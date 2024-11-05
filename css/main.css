@@ -2,6 +2,10 @@
 }
 .main-layout {
   padding-top: 36px;
+  padding-bottom: 160px;
+  /* display: flex;
+  flex-direction: column;
+  column-gap: 64px; */
 }
 
 /* 메인 상단 */
@@ -39,15 +43,14 @@
   display: flex;
   height: 100px;
   padding: 24px 8px 8px 12px;
+  align-content: center; /*이게 적용이 안되고 있는데 왜 센터에 있지..*/
+  justify-items: center;
   margin-bottom: 40px;
 }
 .main-top .category-wrap .category {
-  display: flex;
   width: 116px;
-  align-content: center; /*이게 적용이 안되고 있는데 왜 센터에 있지..*/
-  justify-items: center;
-  flex-direction: column;
-  column-gap: 8px; /*display: block 때문에 적용이 안된다고 뜨는데 a를 flex로 바꿔야하나*/
+  height: 94px;
+  gap: 8px; /*display: block 때문에 적용이 안된다고 뜨는데 a를 flex로 바꿔야하나*/
 }
 
 .main-top .category-wrap .category a {
@@ -61,9 +64,11 @@
 .main-top .category-wrap .category .cate-img {
   width: 56px;
   height: 56px;
-  background-color: gray;
+  background-color: lightgray;
 }
 .main-top .category-wrap .category .cate-img img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .main-top .category-wrap .category .cate-title {
@@ -74,6 +79,9 @@
 
 /* 메인 내용 */
 .main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
 }
 /* 인기 구직 */
 .popular-job-box {
@@ -108,33 +116,42 @@
   height: 100%;
   justify-content: space-between;
 }
+
 .box-content-wrap {
   display: block;
-  position: relative;
+
   width: 250px;
   height: 100%;
   cursor: pointer;
 }
-.box-content-wrap .box-img {
+.box-thum {
+  position: relative;
   width: 100%;
   height: 167.5px;
-  border-radius: 12px;
   background-color: lightgray;
   margin-bottom: 12px;
-  /*filter: */
+  border-radius: 12px;
+  overflow: hidden;
 }
-.box-content-wrap .box-img img {
+.box-thum-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.box-content-wrap .box-info-top {
+.box-thum-img img {
+}
+
+.box-thum .box-info-top {
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  height: 15%;
+  padding: 20px;
+  align-items: center;
   justify-content: space-between;
+  background-color: gray;
 }
 .box-content-wrap .box-info-top .job-pass {
   color: #fff;
@@ -142,11 +159,11 @@
   font-size: 14px;
 }
 .box-content-wrap .box-info-top .bookmark {
-  /*임시 처리*/
   color: #fff;
   font-weight: 600;
   font-size: 14px;
 }
+
 .box-content-wrap .box-info-bottom {
 }
 .box-content-wrap .box-info-bottom .job-name {
@@ -168,9 +185,14 @@
 /* 카드 뉴스 */
 .card-news {
 }
+.card-news-container-set {
+  display: flex;
+  width: 2460px;
+  gap: 20px;
+}
 .card-news-container {
   display: flex;
-  width: 100%;
+  width: 436px;
   height: 302px;
   cursor: pointer;
 }
@@ -181,6 +203,7 @@
   height: 290px;
   border-radius: 12px;
   background-color: lightgray;
+  overflow: hidden;
 }
 .card-news-wrap .card-news-img {
   width: 100%;
@@ -193,8 +216,13 @@
 }
 .card-news-wrap .card-news-info {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 146px;
+  background-color: gray;
+  gap: 5px;
+  padding: 80px 0 25px 25px;
 }
 .card-news-wrap .card-news-info .card-news-title {
   color: #fff;
@@ -223,6 +251,7 @@
   border: 1px solid rgba(111, 114, 123, 0.16);
   border-radius: 12px;
   background-color: lightgray;
+  overflow: hidden;
 }
 .theme-position-img {
   width: 100%;
@@ -261,23 +290,24 @@
   align-items: center;
 }
 .gangnam {
-  border: 1px solid rgb(23, 23, 25);
-  border-radius: 10px;
-  color: rgb(23, 23, 25);
   padding: 7px 8px 7px 12px;
+  border: 1px solid rgb(23, 23, 25);
+  color: rgb(23, 23, 25);
+  border-radius: 10px;
+}
+.station-position-container-set {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .station-position-container {
   display: flex;
-  height: 330px;
-}
-.station-position-container-left {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
+
 .station-position-wrap {
-  width: 515px;
   display: flex;
+  width: 515px;
   align-items: center;
   justify-content: space-between;
 }
@@ -290,36 +320,32 @@
 .station-position-img img {
 }
 .station-position-wrap .station-position-info-box {
-  height: 66px;
-  width: 343px;
   display: flex;
+  width: 343px;
+  height: 66px;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
 }
 .station-position-info-box .station-position-job {
-  font-size: 16px;
   font-weight: 600;
+  font-size: 16px;
   margin-bottom: 2px;
 }
 .station-position-info .station-position-info {
 }
 .station-position-company {
-  font-size: 13px;
-  font-weight: 500;
   color: rgba(55, 56, 60, 0.608);
+  font-weight: 500;
+  font-size: 13px;
 }
 .station-position-etc {
-  font-size: 13px;
-  font-weight: 500;
   color: rgba(55, 56, 60, 0.608);
+  font-weight: 500;
+  font-size: 13px;
 }
 /*.station-bookmark {
   display: block;
 }*/
-.station-position-container-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 /* 요즘 뜨는 포지션(인기 구직과 동일 레이아웃) */
