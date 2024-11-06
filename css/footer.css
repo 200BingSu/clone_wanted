@@ -15,6 +15,7 @@
 .footer-top .footer-logo {
   width: 132px;
   height: 32px;
+  cursor: pointer;
 }
 .footer-top .footer-logo img {
   width: 100%;
@@ -77,7 +78,7 @@
   display: flex;
   align-items: center;
 }
-.footer-bottom .sns div {
+.footer-bottom .sns a {
   width: 36px;
   height: 36px;
   font-size: 19px;
