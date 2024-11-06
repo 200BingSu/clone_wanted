@@ -33,6 +33,7 @@
 
 /* 푸터 중단 */
 .footer-middle {
+  margin-bottom: 15px;
 }
 .footer-middle .company-impormation {
   display: flex;
@@ -76,33 +77,10 @@
   display: flex;
   align-items: center;
 }
-.footer-bottom .sns .insta {
+.footer-bottom .sns div {
   width: 36px;
   height: 36px;
-  background-color: lightgray;
-}
-.footer-bottom .sns .facebook {
-  width: 36px;
-  height: 36px;
-  background-color: lightgray;
-}
-.footer-bottom .sns .youtube {
-  width: 36px;
-  height: 36px;
-  background-color: lightgray;
-}
-.footer-bottom .sns .naver {
-  width: 36px;
-  height: 36px;
-  background-color: lightgray;
-}
-.footer-bottom .sns .apple {
-  width: 36px;
-  height: 36px;
-  background-color: lightgray;
-}
-.footer-bottom .sns .google {
-  width: 36px;
-  height: 36px;
-  background-color: lightgray;
+  font-size: 19px;
+  font-weight: 600;
+  color: rgba(55, 56, 60, 0.61);
 }

@@ -1,7 +1,7 @@
 .main {
 }
 .main-layout {
-  padding-top: 36px;
+  padding-top: 100px;
   padding-bottom: 160px;
   /* display: flex;
   flex-direction: column;
@@ -38,8 +38,16 @@
   font-weight: 600;
   font-size: 15px;
 }
+
+/* 메인 내용 */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
 /* 카테고리 */
-.main-top .category-wrap {
+.main-content .category-wrap {
   display: flex;
   height: 100px;
   padding: 24px 8px 8px 12px;
@@ -47,17 +55,21 @@
   justify-items: center;
   margin-bottom: 40px;
 }
-.main-top .category-wrap .category {
+.main-content .category-wrap .category {
   width: 116px;
   height: 94px;
-  gap: 8px; /*display: block 때문에 적용이 안된다고 뜨는데 a를 flex로 바꿔야하나*/
+  border-radius: 10px;
+  transition: all 0.3s;
 }
-
+.category:hover {
+  background-color: rgb(241, 241, 241);
+}
 .main-top .category-wrap .category a {
   display: block;
+  width: 100%;
+  height: 100%;
   align-content: center;
   justify-items: center;
-  column-gap: 8px;
   cursor: pointer;
 }
 
@@ -76,12 +88,6 @@
   font-size: 13px;
 }
 
-/* 메인 내용 */
-.main-content {
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-}
 /* 인기 구직 */
 .popular-job-box {
   height: 274.5px;
@@ -101,30 +107,50 @@
   display: flex;
   width: 64px;
   height: 32px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 12px;
+  overflow: hidden;
 }
 .button-box .left-button {
   width: 31px;
   height: 30px;
+  border: none;
+  color: rgb(212, 212, 212);
+  background-color: white;
 }
 .button-box .right-button {
   width: 31px;
   height: 30px;
+  border: none;
+  background-color: white;
+  color: rgb(51, 51, 51);
 }
-.box-container {
+.left-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+.right-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+.box-container-set {
   display: flex;
   height: 100%;
   justify-content: space-between;
 }
-
-.box-content-wrap {
+.box-container {
   display: block;
-
   width: 250px;
   height: 100%;
-  cursor: pointer;
-}
-.box-thum {
   position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.box-container .box-content-wrap {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+.box-content-wrap .box-thum {
   width: 100%;
   height: 167.5px;
   background-color: lightgray;
@@ -132,16 +158,19 @@
   border-radius: 12px;
   overflow: hidden;
 }
-.box-thum-img {
+.box-content-wrap:hover .box-thum-img {
+  transform: scale(1.05, 1.05);
+}
+.box-thum .box-thum-img {
   width: 100%;
   height: 100%;
+  transition: all 0.5s;
 }
-.box-thum-img img {
+.box-thum .box-thum-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .box-thum .box-info-top {
   display: flex;
   position: absolute;
@@ -152,35 +181,59 @@
   padding: 20px;
   align-items: center;
   justify-content: space-between;
-  background-color: gray;
+  z-index: 1;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); */
 }
-.box-content-wrap .box-info-top .job-pass {
-  color: #fff;
-  font-weight: 600;
-  font-size: 14px;
-}
-.box-content-wrap .box-info-top .bookmark {
-  color: #fff;
-  font-weight: 600;
-  font-size: 14px;
+.box-thum::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 52px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(transparent),
+    to(rgba(0, 0, 0, 0.35))
+  );
+  background: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.35));
 }
 
+.box-info-top .job-pass {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
 .box-content-wrap .box-info-bottom {
 }
-.box-content-wrap .box-info-bottom .job-name {
+.box-info-bottom .job-name {
   color: rgb(51, 51, 51);
   font-weight: 600;
   font-size: 16px;
+  margin-bottom: 5px;
 }
-.box-content-wrap .box-info-bottom .job-company {
+.box-info-bottom .job-company {
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.box-info-bottom .job-etc {
   color: rgba(55, 56, 60, 0.61);
   font-weight: 500;
   font-size: 13px;
 }
-.box-content-wrap .box-info-bottom .job-etc {
-  color: rgba(55, 56, 60, 0.61);
-  font-weight: 500;
-  font-size: 13px;
+.box-container .bookmark {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /* 카드 뉴스 */
@@ -205,11 +258,38 @@
   border-radius: 12px;
   background-color: lightgray;
   overflow: hidden;
+  transition: all 0.5s;
+}
+.card-news-wrap:hover {
+  transform: translateY(-10px);
+}
+.card-news-wrap:hover .card-news-img {
+  transform: scale(1.05, 1.05);
 }
 .card-news-wrap .card-news-img {
   width: 100%;
   height: 100%;
+  transition: all 0.5s;
 }
+.card-news-wrap::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 52px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(transparent),
+    to(rgba(0, 0, 0, 0.8))
+  );
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.8));
+}
+
 .card-news-wrap .card-news-img img {
   width: 100%;
   height: 100%;
@@ -221,7 +301,7 @@
   left: 0px;
   width: 100%;
   height: 146px;
-  background-color: gray;
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0)); */
   gap: 5px;
   padding: 80px 0 25px 25px;
 }
@@ -254,9 +334,13 @@
   background-color: lightgray;
   overflow: hidden;
 }
+.theme-position-wrap:hover .theme-position-img {
+  transform: scale(1.05, 1.05);
+}
 .theme-position-img {
   width: 100%;
   height: 100%;
+  transition: all 0.3s;
 }
 .theme-position-img img {
   width: 100%;
@@ -284,7 +368,8 @@
 }
 
 /* 역세권 포지션 */
-.station-position-box {
+.station-position {
+  width: 100%;
 }
 .box-top-right {
   display: flex;
@@ -292,25 +377,57 @@
 }
 .gangnam {
   padding: 7px 8px 7px 12px;
-  border: 1px solid rgb(23, 23, 25);
+  border: 1px solid rgb(212, 212, 212);
   color: rgb(23, 23, 25);
+  background-color: white;
   border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
 }
-.station-position-container-set {
+.gangnam span {
+  color: rgb(23, 23, 25);
+}
+.gangnam:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.station-positions {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
+.station-position-container-set {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
 .station-position-container {
+  width: 50%;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
-
 .station-position-wrap {
   display: flex;
-  width: 515px;
+  width: 100%;
   align-items: center;
-  justify-content: space-between;
+  gap: 15px;
+}
+.station-bookmark {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  display: none;
+  font-size: 20px;
+  color: rgb(145, 145, 145);
+}
+.station-position-container:hover .station-bookmark {
+  display: block;
+}
+
+.station-position-wrap:hover .station-position-img img {
+  transform: scale(1.05, 1.05);
 }
 .station-position-wrap .station-position-img {
   width: 120px;
@@ -322,6 +439,8 @@
 .station-position-img img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
 }
 .station-position-wrap .station-position-info-box {
   display: flex;
@@ -336,8 +455,6 @@
   font-size: 16px;
   margin-bottom: 2px;
 }
-.station-position-info .station-position-info {
-}
 .station-position-company {
   color: rgba(55, 56, 60, 0.608);
   font-weight: 500;
@@ -348,8 +465,5 @@
   font-weight: 500;
   font-size: 13px;
 }
-/*.station-bookmark {
-  display: block;
-}*/
 
 /* 요즘 뜨는 포지션(인기 구직과 동일 레이아웃) */
