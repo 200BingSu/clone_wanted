@@ -1,0 +1,98 @@
+/* 역세권 포지션 */
+.station-position {
+  width: 100%;
+}
+.box-top-right {
+  display: flex;
+  align-items: center;
+}
+.gangnam {
+  padding: 7px 8px 7px 12px;
+  border: 1px solid rgb(212, 212, 212);
+  color: rgb(23, 23, 25);
+  background-color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.gangnam span {
+  color: rgb(23, 23, 25);
+}
+.gangnam:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.station-positions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.station-position-container-set {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+.station-position-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.station-position-wrap {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 15px;
+}
+.station-bookmark {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  display: none;
+  font-size: 20px;
+  color: rgb(145, 145, 145);
+}
+.station-position-container:hover .station-bookmark {
+  display: block;
+}
+
+.station-position-wrap:hover .station-position-img img {
+  transform: scale(1.05, 1.05);
+}
+.station-position-wrap .station-position-img {
+  width: 120px;
+  height: 90px;
+  background-color: lightgray;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.station-position-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.station-position-wrap .station-position-info-box {
+  display: flex;
+  width: 343px;
+  height: 66px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.station-position-info-box .station-position-job {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.station-position-company {
+  color: rgba(55, 56, 60, 0.608);
+  font-weight: 500;
+  font-size: 13px;
+}
+.station-position-etc {
+  color: rgba(55, 56, 60, 0.608);
+  font-weight: 500;
+  font-size: 13px;
+}

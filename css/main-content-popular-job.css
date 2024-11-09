@@ -1,0 +1,148 @@
+/* 인기 구직 */
+/* 요즘 뜨는 포지션(인기 구직과 동일 레이아웃) */
+.popular-job-box {
+  height: 274.5px;
+}
+.box-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.box-top .box-title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-right: 10px;
+}
+.box-top .button-box {
+  display: flex;
+  width: 64px;
+  height: 32px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.button-box .left-button {
+  width: 31px;
+  height: 30px;
+  border: none;
+  color: rgb(212, 212, 212);
+  background-color: white;
+}
+.button-box .right-button {
+  width: 31px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  color: rgb(51, 51, 51);
+}
+.left-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+.right-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+.box-container-set {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.box-container {
+  display: block;
+  width: 250px;
+  height: 100%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.box-container .box-content-wrap {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+.box-content-wrap .box-thum {
+  width: 100%;
+  height: 167.5px;
+  background-color: lightgray;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.box-content-wrap:hover .box-thum-img {
+  transform: scale(1.05, 1.05);
+}
+.box-thum .box-thum-img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.box-thum .box-thum-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box-thum .box-info-top {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); */
+}
+.box-thum::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 52px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(transparent),
+    to(rgba(0, 0, 0, 0.35))
+  );
+  background: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.35));
+}
+
+.box-info-top .job-pass {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.box-content-wrap .box-info-bottom {
+}
+.box-info-bottom .job-name {
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.box-info-bottom .job-company {
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.box-info-bottom .job-etc {
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 500;
+  font-size: 13px;
+}
+.box-container .bookmark {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+}

@@ -1,0 +1,27 @@
+/* 팁 */
+.main-top .tip {
+  display: flex;
+  width: 500px;
+  height: 58px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(111, 114, 123, 0.04);
+  border-radius: 16px;
+}
+.main-top .tip .tip-img {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.main-top .tip .tip-img img {
+}
+.main-top .tip .tip-sentence {
+}
+.main-top .tip .tip-sentence span {
+  color: #0066ff;
+  font-weight: 600;
+  font-size: 15px;
+}
