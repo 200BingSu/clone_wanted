@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "link": "#",
+    "imgpath": "/images/35.webp",
+    "job-name": "백엔드 엔지니어",
+    "job-company": "포스타입",
+    "job-etc": "서울 강남구 · 신입-경력 10년"
+  },
+  {
+    "id": "2",
+    "link": "#",
+    "imgpath": "/images/35.webp",
+    "job-name": "프론트엔드 엔지니어",
+    "job-company": "포스타입",
+    "job-etc": "서울 강남구 · 신입-경력 10년"
+  },
+  {
+    "id": "3",
+    "link": "#",
+    "imgpath": "/images/49.webp",
+    "job-name": "Backend Engineer",
+    "job-company": "티맴모빌리티",
+    "job-etc": "서울 중구 · 경력 2년 이상"
+  },
+  {
+    "id": "4",
+    "link": "#",
+    "imgpath": "/images/28.webp",
+    "job-name": "Software Engineer, Data",
+    "job-company": "당근마켓",
+    "job-etc": "서울 서초구 · 신입"
+  },
+  {
+    "id": "5",
+    "link": "#",
+    "imgpath": "/images/52.webp",
+    "job-name": "React 기반 Frontend 개발자",
+    "job-company": "레인포컴퍼니",
+    "job-etc": "서울 강남구 · 신입-경력 5년"
+  },
+  {
+    "id": "6",
+    "link": "#",
+    "imgpath": "/images/07.webp",
+    "job-name": "[채널톡] Software Engineer",
+    "job-company": "채널코퍼레이션",
+    "job-etc": "서울 강남구 · 경력 1-10년"
+  },
+  {
+    "id": "7",
+    "link": "#",
+    "imgpath": "/images/26.webp",
+    "job-name": "백엔드 개발자/이미지 프로세싱",
+    "job-company": "미리디",
+    "job-etc": "서울 구로구 · 신입-경력 5년"
+  },
+  {
+    "id": "8",
+    "link": "#",
+    "imgpath": "/images/39.webp",
+    "job-name": "백엔드 개발자/이미지 프로세싱",
+    "job-company": "디리아",
+    "job-etc": "서울 서초구 · 경력 2-10년"
+  },
+  {
+    "id": "9",
+    "link": "#",
+    "imgpath": "/images/28.webp",
+    "job-name": "마케팅 디자이너",
+    "job-company": "당근마켓",
+    "job-etc": "서울 서초구 · 경력 3-10년"
+  },
+  {
+    "id": "10",
+    "link": "#",
+    "imgpath": "/images/15.webp",
+    "job-name": "[플랫폼 개발실] 웹 Front-end 개발자",
+    "job-company": "스테이션3(다방)",
+    "job-etc": "서울 서초구 · 경력 3-10년"
+  }
+]

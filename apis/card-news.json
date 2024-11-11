@@ -1,0 +1,43 @@
+[
+  {
+    "id": "1",
+    "link": "#",
+    "imgpath": "한계를 넘는 프리미엄 정수력",
+    "news": "바디럽 퓨어썸 시그니처 세면대용 필터"
+  },
+  {
+    "id": "2",
+    "link": "#",
+    "imgpath": "/images/79.webp",
+    "title": "생성형AI솔루션 우수인재 모집",
+    "news": "인공지능엔지니어, sw 개발자, PM, Sales, 사업개발"
+  },
+  {
+    "id": "3",
+    "link": "#",
+    "imgpath": "/images/80.webp",
+    "title": "No.1 메디컬뷰티 플랫폼",
+    "news": "강남언니 전직군 대규모 채용 중"
+  },
+  {
+    "id": "4",
+    "link": "#",
+    "imgpath": "/images/02.webp",
+    "title": "인공지능(AI) 포지션",
+    "news": "눈여겨볼 인공지능(AI) 채용공고를 소개합니다."
+  },
+  {
+    "id": "5",
+    "link": "#",
+    "imgpath": "/images/05.webp",
+    "title": "일할 맛 나는, 고운세상코스메틱",
+    "news": "지금 적극 채용 중!"
+  },
+  {
+    "id": "6",
+    "link": "#",
+    "imgpath": "/images/03.webp",
+    "title": "전액지원 취업교육 '원티드 포텐업'",
+    "news": "데이터·AI & 게임 클라이언트 트랙"
+  }
+]
