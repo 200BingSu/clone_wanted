@@ -58,6 +58,9 @@
   font-weight: 600;
   font-size: 15px;
 }
+.menu-active {
+  color: #adadad;
+}
 .header-menu-wrap .header-menu .header-menu-icon {
   display: flex;
   align-items: center;
