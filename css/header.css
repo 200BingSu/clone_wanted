@@ -53,13 +53,13 @@
 .header-menu a img {
   margin-right: 5px;
 }
-.header-menu-wrap .header-menu a {
+.header-menu-wrap .header-menu {
   color: #333;
   font-weight: 600;
   font-size: 15px;
 }
 .menu-active {
-  color: #adadad;
+  background-color: red;
 }
 .header-menu-wrap .header-menu .header-menu-icon {
   display: flex;
