@@ -6,27 +6,27 @@
   height: 100%;
 }
 
-/* .card-news-container-set-wrap::before {
-  content: '좌';
+.card-news-container-set-wrap::before {
+  content: '';
   position: absolute;
-  left: -40px;
+  left: -5px;
   bottom: 0;
   width: 50px;
   height: 100%;
-  backdrop-filter: blur(10px);
+  background: linear-gradient(to right, #ffffff 5%, rgba(255, 255, 255, 0));
   z-index: 2;
 }
 
 .card-news-container-set-wrap::after {
-  content: '우';
+  content: '';
   position: absolute;
-  right: -40px;
+  right: 0px;
   top: 0;
   width: 50px;
   height: 100%;
-  backdrop-filter: blur(10px);
+  background: linear-gradient(to left, #ffffff 5%, rgba(255, 255, 255, 0));
   z-index: 2;
-} */
+}
 
 .card-news-container-set {
   position: relative;
@@ -39,7 +39,6 @@
   width: 436px;
   cursor: pointer;
   border-radius: 12px;
-  overflow: hidden;
 }
 
 .card-news-wrap {

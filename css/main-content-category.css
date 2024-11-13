@@ -6,6 +6,7 @@
   align-content: center; /*이게 적용이 안되고 있는데 왜 센터에 있지..*/
   justify-items: center;
   margin-bottom: 40px;
+  margin-top: 10px;
 }
 .main-content .category-wrap .category {
   width: 116px;

@@ -11,7 +11,7 @@
   position: relative;
   width: 340px;
   height: 260px;
-  border: 1px solid rgba(111, 114, 123, 0.16);
+  border: 1px solid rgba(235, 235, 235, 0.342);
   border-radius: 12px;
   background-color: lightgray;
   overflow: hidden;
@@ -37,6 +37,7 @@
   height: 86px;
   padding: 20px;
   background-color: #fff;
+  align-content: center;
 }
 .theme-position-info .theme-position-title {
   color: rgb(23, 23, 25);

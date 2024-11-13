@@ -17,6 +17,7 @@
 }
 .gangnam span {
   color: rgb(23, 23, 25);
+  transition: all 0.5s;
 }
 .gangnam:hover {
   background-color: rgb(230, 230, 230);
@@ -51,7 +52,7 @@
   top: 45px;
   display: none;
   font-size: 20px;
-  color: rgb(145, 145, 145);
+  color: rgb(192, 192, 192);
 }
 .station-position-container:hover .station-bookmark {
   display: block;
