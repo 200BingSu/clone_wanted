@@ -7,9 +7,9 @@
 }
 
 .card-news-container-set-wrap::before {
-  content: '';
+  content: "";
   position: absolute;
-  left: -5px;
+  left: 0px;
   bottom: 0;
   width: 50px;
   height: 100%;
@@ -18,7 +18,7 @@
 }
 
 .card-news-container-set-wrap::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0px;
   top: 0;
@@ -62,7 +62,7 @@
   overflow: hidden;
 }
 .card-news-img::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
