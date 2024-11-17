@@ -3,7 +3,7 @@
   display: flex;
   height: 100px;
   padding: 24px 8px 8px 12px;
-  align-content: center; /*이게 적용이 안되고 있는데 왜 센터에 있지..*/
+  align-content: center;
   justify-items: center;
   margin-bottom: 40px;
   margin-top: 10px;
