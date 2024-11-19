@@ -50,13 +50,3 @@
   align-items: center;
   justify-content: space-between;
 }
-
-/* 서브메뉴 */
-.submenu-box {
-  position: absolute;
-  left: 0;
-  top: 100%;
-  height: 300px;
-  width: 100%;
-  background-color: aqua;
-}
