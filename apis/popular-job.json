@@ -1,82 +1,524 @@
-[
-  {
-    "id": "1",
-    "link": "#",
-    "imgpath": "/images/35.webp",
-    "job-name": "백엔드 엔지니어",
-    "job-company": "포스타입",
-    "job-etc": "서울 강남구 · 신입-경력 10년"
-  },
-  {
-    "id": "2",
-    "link": "#",
-    "imgpath": "/images/35.webp",
-    "job-name": "프론트엔드 엔지니어",
-    "job-company": "포스타입",
-    "job-etc": "서울 강남구 · 신입-경력 10년"
-  },
-  {
-    "id": "3",
-    "link": "#",
-    "imgpath": "/images/49.webp",
-    "job-name": "Backend Engineer",
-    "job-company": "티맴모빌리티",
-    "job-etc": "서울 중구 · 경력 2년 이상"
-  },
-  {
-    "id": "4",
-    "link": "#",
-    "imgpath": "/images/28.webp",
-    "job-name": "Software Engineer, Data",
-    "job-company": "당근마켓",
-    "job-etc": "서울 서초구 · 신입"
-  },
-  {
-    "id": "5",
-    "link": "#",
-    "imgpath": "/images/52.webp",
-    "job-name": "React 기반 Frontend 개발자",
-    "job-company": "레인포컴퍼니",
-    "job-etc": "서울 강남구 · 신입-경력 5년"
-  },
-  {
-    "id": "6",
-    "link": "#",
-    "imgpath": "/images/07.webp",
-    "job-name": "[채널톡] Software Engineer",
-    "job-company": "채널코퍼레이션",
-    "job-etc": "서울 강남구 · 경력 1-10년"
-  },
-  {
-    "id": "7",
-    "link": "#",
-    "imgpath": "/images/26.webp",
-    "job-name": "백엔드 개발자/이미지 프로세싱",
-    "job-company": "미리디",
-    "job-etc": "서울 구로구 · 신입-경력 5년"
-  },
-  {
-    "id": "8",
-    "link": "#",
-    "imgpath": "/images/39.webp",
-    "job-name": "백엔드 개발자/이미지 프로세싱",
-    "job-company": "디리아",
-    "job-etc": "서울 서초구 · 경력 2-10년"
-  },
-  {
-    "id": "9",
-    "link": "#",
-    "imgpath": "/images/28.webp",
-    "job-name": "마케팅 디자이너",
-    "job-company": "당근마켓",
-    "job-etc": "서울 서초구 · 경력 3-10년"
-  },
-  {
-    "id": "10",
-    "link": "#",
-    "imgpath": "/images/15.webp",
-    "job-name": "[플랫폼 개발실] 웹 Front-end 개발자",
-    "job-company": "스테이션3(다방)",
-    "job-etc": "서울 서초구 · 경력 3-10년"
-  }
-]
+{
+  "positions": [
+    {
+      "id": 245638,
+      "status": "active",
+      "position": "백엔드 엔지니어",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/4527/ophsxyxqezqbfbv4__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/4527/ophsxyxqezqbfbv4__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 4527,
+        "name": "포스타입"
+      }
+    },
+    {
+      "id": 245634,
+      "status": "active",
+      "position": "프론트엔드 엔지니어",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/4527/ophsxyxqezqbfbv4__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/4527/ophsxyxqezqbfbv4__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 4527,
+        "name": "포스타입"
+      }
+    },
+    {
+      "id": 246839,
+      "status": "active",
+      "position": "Java 백엔드 주니어 개발자",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/30906/95omoupd23q1n62x__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/30906/95omoupd23q1n62x__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 30906,
+        "name": "디카르고"
+      }
+    },
+    {
+      "id": 247444,
+      "status": "active",
+      "position": "HRM Specialist [피플팀]",
+      "is_bookmark": false,
+      "category_parent_id": 517,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/79/elpzxpmgh94xesrf__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/79/elpzxpmgh94xesrf__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "송파구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 79,
+        "name": "원티드랩"
+      }
+    },
+    {
+      "id": 241717,
+      "status": "active",
+      "position": "백엔드 개발자 / 이미지 프로세싱",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/2569/esaq2zt11khcj0fx__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/2569/esaq2zt11khcj0fx__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "구로구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 2569,
+        "name": "미리디"
+      }
+    },
+    {
+      "id": 246934,
+      "status": "active",
+      "position": "Software Engineer (Frontend)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/18915/mklbi1zxaicfzy4z__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/18915/mklbi1zxaicfzy4z__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강동구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 18915,
+        "name": "제이와이피엔터테인먼트(JYP)"
+      }
+    },
+    {
+      "id": 247925,
+      "status": "active",
+      "position": "프론트엔드 엔지니어",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/14509/tpnmqphhuryzk4ai__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/14509/tpnmqphhuryzk4ai__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 14509,
+        "name": "라포랩스(퀸잇)"
+      }
+    },
+    {
+      "id": 77145,
+      "status": "active",
+      "position": "React 기반 Frontend 개발자",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/18758/bfnmhiyevdacbnyt__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/18758/bfnmhiyevdacbnyt__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 18758,
+        "name": "레인포컴퍼니"
+      }
+    },
+    {
+      "id": 243690,
+      "status": "active",
+      "position": "Backend Engineer",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/15887/ycdcdo8ae6crr6mf__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/15887/ycdcdo8ae6crr6mf__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "중구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 15887,
+        "name": "티맵모빌리티"
+      }
+    },
+    {
+      "id": 202035,
+      "status": "active",
+      "position": "프론트엔드 엔지니어(FE) 주니어",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/21837/obgbpdthavbbgzfa__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/21837/obgbpdthavbbgzfa__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "서초구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 21837,
+        "name": "월급쟁이부자들"
+      }
+    },
+    {
+      "id": 222071,
+      "status": "active",
+      "position": "[채널톡] Software Engineer",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/8/8rx3kj8dd6npagtc__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/8/8rx3kj8dd6npagtc__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 8,
+        "name": "채널코퍼레이션"
+      }
+    },
+    {
+      "id": 246260,
+      "status": "active",
+      "position": "마케팅 디자이너",
+      "is_bookmark": false,
+      "category_parent_id": 511,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/2826/lezu1u37pnbhnqpk__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/2826/lezu1u37pnbhnqpk__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "서초구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 2826,
+        "name": "당근마켓"
+      }
+    },
+    {
+      "id": 207573,
+      "status": "active",
+      "position": "Frontend Developer",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/47417/kzalrowgz0wizwwi__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/47417/kzalrowgz0wizwwi__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 15,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 47417,
+        "name": "토스플레이스"
+      }
+    },
+    {
+      "id": 247200,
+      "status": "active",
+      "position": "백엔드 개발자",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/5738/xqwqrhnhxfedvwax__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/5738/xqwqrhnhxfedvwax__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "광진구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 8,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 5738,
+        "name": "호두랩스"
+      }
+    },
+    {
+      "id": 248012,
+      "status": "active",
+      "position": "[Healthacre BU] Frontend(웹) Engineer",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/7406/q55jnetubgh7eghd__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/7406/q55jnetubgh7eghd__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "성동구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 7406,
+        "name": "삼양식품"
+      }
+    },
+    {
+      "id": 241761,
+      "status": "active",
+      "position": "[아정당] 백엔드 개발자 (2년이상)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/28564/fyntvynx4kqyyksc__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/28564/fyntvynx4kqyyksc__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 15,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 28564,
+        "name": "아정네트웍스"
+      }
+    },
+    {
+      "id": 34081,
+      "status": "active",
+      "position": "Software Engineer (Front-end)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/4843/59xxvluhnyy9fdgw__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/4843/59xxvluhnyy9fdgw__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 4843,
+        "name": "코클"
+      }
+    },
+    {
+      "id": 250363,
+      "status": "active",
+      "position": "[IT] Fontend WEB 개발",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/9651/5qwhz3edl1ijtkoi__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/9651/5qwhz3edl1ijtkoi__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "송파구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 9651,
+        "name": "케이티(KT)"
+      }
+    },
+    {
+      "id": 239763,
+      "status": "active",
+      "position": "백엔드 엔지니어 (신입~5년차)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/1978/iq4o1lhc4iixowxm__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/1978/iq4o1lhc4iixowxm__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 1978,
+        "name": "메이데이파트너스"
+      }
+    },
+    {
+      "id": 202034,
+      "status": "active",
+      "position": "백엔드 엔지니어(BE) 주니어",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/21837/obgbpdthavbbgzfa__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/21837/obgbpdthavbbgzfa__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "서초구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 21837,
+        "name": "월급쟁이부자들"
+      }
+    }
+  ]
+}

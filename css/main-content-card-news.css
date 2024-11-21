@@ -1,3 +1,84 @@
+.card-news {
+}
+.card-news-containers {
+}
+.card-news-containers::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  width: 40px;
+  height: 305px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 85) 10%,
+    rgba(255, 255, 255, 0)
+  );
+  z-index: 2;
+}
+.card-news-containers::after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: 0;
+  width: 40px;
+  height: 305px;
+  background: linear-gradient(to left, #ffffff 10%, rgba(255, 255, 255, 0));
+  z-index: 2;
+}
+.card-news-container {
+}
+.card-news-container .card-news-box {
+  width: 436px;
+  height: 290px;
+  border-radius: 12px;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.card-news-box .card-news {
+  width: 100%;
+  height: 100%;
+}
+.card-news .card-news-img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.card-news .card-news-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-news .card-news-info {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
+  height: 146px;
+  gap: 5px;
+  padding: 80px 0 25px 25px;
+  z-index: 1;
+}
+.card-news .card-news-info .card-news-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.card-news .card-news-info .card-news-text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+.card-news-box:hover .card-news-img {
+  transform: scale(1.05, 1.05);
+}
+.card-news-box:hover {
+  transform: translateY(-10px);
+}
+.card-news .swiper {
+  overflow: visible !important;
+}
 /* 카드 뉴스
 .card-news {
 }
