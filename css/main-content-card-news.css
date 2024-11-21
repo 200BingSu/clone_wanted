@@ -1,6 +1,8 @@
 .card-news {
+  width: 100%;
 }
 .card-news-containers {
+  width: 100%;
 }
 .card-news-containers::before {
   content: '';
