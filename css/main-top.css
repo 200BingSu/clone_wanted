@@ -1,0 +1,42 @@
+/* 팁 */
+.main-top .tip {
+  display: flex;
+  width: 500px;
+  height: 58px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(111, 114, 123, 0.04);
+  border-radius: 16px;
+  animation: popup 1s forwards;
+  overflow: hidden;
+}
+.main-top .tip .tip-img {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.main-top .tip .tip-img img {
+}
+.main-top .tip .tip-sentence {
+}
+.main-top .tip .tip-sentence span {
+  color: #0066ff;
+  font-weight: 600;
+  font-size: 15px;
+}
+.tip-icon {
+  color: #c7c7c7;
+}
+@keyframes popup {
+  0% {
+    transform: scale(0); /* 처음엔 크기가 0 */
+    opacity: 0; /* 투명도 0 */
+  }
+  100% {
+    transform: scale(1); /* 원래 크기 */
+    opacity: 1; /* 투명도 1 */
+  }
+}

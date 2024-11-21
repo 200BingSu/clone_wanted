@@ -1,0 +1,19 @@
+/* 문의하기 버튼 */
+.qna-button-box {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9999;
+}
+.qna-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: 1px solid rgb(5, 5, 5);
+  background-color: rgb(51, 51, 51);
+  color: #e4e4e4;
+  font-size: 30px;
+  cursor: pointer;
+}

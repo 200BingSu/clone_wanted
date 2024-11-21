@@ -1,0 +1,52 @@
+/* 헤더 우측 */
+.header-right {
+  display: flex;
+  width: 262px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right .search {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+.header-right .search img {
+  width: 24px;
+  height: 24px;
+}
+.header-right .private-box {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+.header-right .private-box .login {
+  display: inline-block;
+  width: 113px;
+  height: 32px;
+  border: 1px solid #d4d4d4;
+  color: rgb(0, 102, 255);
+  font-size: 13px;
+  text-align: center;
+  border-radius: 8px;
+  align-content: center;
+  transition: all 0.5s;
+}
+.login:hover {
+  background-color: rgb(230, 230, 230);
+}
+.header-right .private-box .company-service {
+  display: inline-block;
+  width: 88px;
+  border: 1px solid #d4d4d4;
+  color: rgb(23, 23, 25);
+  font-size: 13px;
+  text-align: center;
+  border-radius: 8px;
+  align-content: center;
+  transition: all 0.5s;
+}
+.company-service:hover {
+  background-color: rgb(230, 230, 230);
+}

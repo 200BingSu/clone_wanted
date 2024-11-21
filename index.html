@@ -3,159 +3,1422 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wanted</title>
+    <title>clone_wanted</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/header-left.css" />
+    <link rel="stylesheet" href="./css/header-right.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main-top.css" />
+    <link rel="stylesheet" href="./css/main-content-category.css" />
+    <link rel="stylesheet" href="./css/main-content-popular-job.css" />
+    <link rel="stylesheet" href="./css/main-content-card-news.css" />
+    <link rel="stylesheet" href="./css/main-content-theme-position.css" />
+    <link rel="stylesheet" href="./css/main-content-station-position.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/button.css" />
+    <script src="./js/swiper-slide.js"></script>
+    <script src="./js/header-menu.js"></script>
+    <script src="./js/submenu.js"></script>
   </head>
   <body>
+    <!-- 상단 -->
     <header class="header">
-      <div class="header-layout">
+      <div class="header-layout layout">
         <!-- 좌측 -->
-        <div class="left">
+        <div class="header-left">
           <!--로고-->
           <div class="header-logo">
-            <a href="/">로고 이미지</a>
+            <a href="/"
+              ><img src="./images/svg/wanted_logo.svg" alt="완티드 로고"
+            /></a>
           </div>
           <!-- 상단 메뉴-->
-          <ul class="header-menu-wrap">
-            <li class="header-menu"><a href="#">채용</a>
-            <li class="header-menu"><a href="#">커리어</a>
-            <li class="header-menu"><a href="#">소셜</a>
-            <li class="header-menu"><a href="#">이력서</a>
-            <li class="header-menu"><a href="#">프리랜서</a>
-            <li class="header-menu"><a href="#">더보기</a>
-          </ul>
+          <div class="header-menu-wrap">
+            <a href="#" class="header-menu xi-bars" id="employ"> 채용</a>
+            <a href="#" class="header-menu">커리어</a>
+            <a href="#" class="header-menu">소셜</a>
+            <a href="#" class="header-menu">이력서</a>
+            <a href="#" class="header-menu">프리랜서</a>
+            <a href="#" class="header-menu" id="add-menu-btn">더보기</a>
+          </div>
         </div>
         <!-- 우측-->
-        <div class="right">
+        <div class="header-right">
           <!--검색-->
-          <a href="#" class="search">검색</a>
+          <button class="search">
+            <img src="./images/svg/search.svg" alt="돋보기" />
+          </button>
           <!--로그인-->
           <div class="private-box">
-            <a href="#" class="="login">회원가입/로그인</a>
+            <a href="#" class="login">회원가입/로그인</a>
             <a href="#" class="company-service">기업 서비스</a>
           </div>
         </div>
       </div>
+      <!-- 서브메뉴 -->
+      <div class="submenu-box">
+        <div class="submenu-layout">
+          <div class="swiper submenu-slide">
+            <ul class="swiper-wrapper submenu-title">
+              <li class="swiper-slide submenu">
+                <a href="#" class="first-menu submenu-link">직군</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">개발</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">경영·비즈니스</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">마케팅·광고</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">디자인</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">영업</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">고객서비스·리테일</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">미디어</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">엔지니어링·설계</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">HR</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">게임제작</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">금융</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">제조·생산</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">교육</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">의료·제약·바이오</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">물류·무역</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">법률·법집행기관</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">식·음료</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">건설·시설</a>
+              </li>
+              <li class="swiper-slide submenu">
+                <a href="#" class="submenu-link">공공·복지</a>
+              </li>
+            </ul>
+            <div class="swiper-scrollbar submenu-bar"></div>
+          </div>
+
+          <div class="submenu-content">
+            <p>직군을 먼저 선택하면 상세 직무를 볼 수 있어요.</p>
+          </div>
+        </div>
+      </div>
+      <!-- 더보기 메뉴 -->
+      <div class="add-menu-box">
+        <div class="add-menu-layout">
+          <ul class="add-menu-wrap">
+            <li class="add-menu">
+              <h3>취업·이직</h3>
+              <ul>
+                <li><a href="#">경력 정보 불러오기</a></li>
+                <li><a href="#">면접 코칭받기</a></li>
+                <li><a href="#">커리어 상담받기</a></li>
+                <li><a href="#">추천사 작성/요청하기</a></li>
+                <li><a href="#">챗봇으로 포지션 찾기</a></li>
+              </ul>
+            </li>
+            <li class="add-menu">
+              <h3>혜택·정보</h3>
+              <ul>
+                <li><a href="#">원티드 포인트</a></li>
+                <li><a href="#">직군별 연봉</a></li>
+                <li><a href="#">최신 채용 트렌드</a></li>
+                <li><a href="#">다음 커리어 찾기</a></li>
+                <li><a href="#">최신 기술 트렌드</a></li>
+              </ul>
+            </li>
+            <li class="add-menu">
+              <h3>인사 담당자</h3>
+              <ul>
+                <li><a href="#">HR 커뮤니티 인상</a></li>
+                <li><a href="#">HR 솔루션</a></li>
+              </ul>
+            </li>
+            <li class="add-menu">
+              <h3>교육 담당자</h3>
+              <ul>
+                <li><a href="#">원티드 취업지원 시스템</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="add-menu-card">
+            <a href="#" class="add-menu-card-link">
+              <img src="#" alt="커리어 포인트" />
+              <div class="add-menu-card-text">
+                <p>커리어를 쌓으면 포인트가 쌓여요.</p>
+                <p>포인트 확인하기<i class="xi-angle-right"></i></p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
+    <div class="submenu-bg"></div>
+    <!-- 중간 -->
     <main class="main">
-      <div class="layout">
+      <div class="main-layout layout">
         <!--메인 상단-->
         <div class="main-top">
           <!-- 팁 -->
           <a href="#" class="tip">
             <div class="tip-img">
-              <img src="#" alt="팁 이미지" />
+              <!-- <img src="#" alt="팁 이미지" /> -->
             </div>
             <div class="tip-sentence">
               로그인하시면
               <span>연봉 정보, 이력서 샘플</span>
-              등 유용한 정보를 얻을 수 있어요.
+              등 유용한 정보를 얻을 수 있어요.<i
+                class="tip-icon xi-angle-right"
+              ></i>
             </div>
           </a>
-          <!-- 카테고리 -->
-          <ul class="category-wrap">
-            <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">채용공고</span>
-            </li>
-            <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">이력서 관리</span>
-            </li>
-            <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">커리어 조회</span>
-            </li>
-            <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">지원현황</span>
-            </li>
-            <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">커리어 코칭</span>
-            </li>
-            <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">다음 커리어 찾기</span>
-            </li>
-            <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">나만의 회사 찾기</span>
-            </li>
-            <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">직군별 연봉</span>
-            </li>
-            <li class="category">
-              <div class="cate-img">
-                <img src="#" alt="카테고리 이미지" />
-              </div>
-              <span class="cate-title">원티드 포인트</span>
-            </li>
-          </ul>
         </div>
         <!--메인 내용-->
         <div class="main-content">
-          <!-- 인기 구직 -->
-          <div class="popular-job">
-            <h3>모두가 주목하고 있어요!</h3>
+          <!-- 카테고리 -->
+          <ul class="category-wrap">
+            <li class="category">
+              <a href="#">
+                <div class="cate-img">
+                  <img src="./images/svg2/icon1.svg" alt="카테고리 이미지1" />
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
+            </li>
+            <li class="category">
+              <a href="#">
+                <div class="cate-img">
+                  <img src="./images/svg2/icon2.svg" alt="카테고리 이미지2" />
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
+            </li>
+            <li class="category">
+              <a href="#">
+                <div class="cate-img">
+                  <img src="./images/svg2/icon3.svg" alt="카테고리 이미지3" />
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
+            </li>
+            <li class="category">
+              <a href="#">
+                <div class="cate-img">
+                  <img src="./images/svg2/icon4.svg" alt="카테고리 이미지4" />
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
+            </li>
+            <li class="category">
+              <a href="#">
+                <div class="cate-img">
+                  <img src="./images/svg2/icon5.svg" alt="카테고리 이미지5" />
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
+            </li>
+            <li class="category">
+              <a href="#">
+                <div class="cate-img">
+                  <img src="./images/svg2/icon6.svg" alt="카테고리 이미지6" />
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
+            </li>
+            <li class="category">
+              <a href="#">
+                <div class="cate-img">
+                  <img src="./images/svg2/icon7.svg" alt="카테고리 이미지7" />
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
+            </li>
+            <li class="category">
+              <a href="#">
+                <div class="cate-img">
+                  <img src="./images/svg2/icon8.svg" alt="카테고리 이미지8" />
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
+            </li>
+            <li class="category">
+              <a href="#">
+                <div class="cate-img">
+                  <img src="./images/svg2/icon9.svg" alt="카테고리 이미지9" />
+                </div>
+                <span class="cate-title">채용공고</span></a
+              >
+            </li>
+          </ul>
+          <!-- 인기 구직 (4)-->
+          <div class="popular-job-box">
+            <div class="box-top">
+              <h3 class="box-title title">모두가 주목하고 있어요!</h3>
+              <div class="button-box">
+                <button class="xi-angle-left left-button"></button>
+                <button class="xi-angle-right right-button"></button>
+              </div>
+            </div>
+            <div class="swiper four-card">
+              <div class="swiper-wrapper box-container-set">
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- 카드 뉴스 -->
-          <div class="card-news"></div>
-          <!-- 테마별 회사/포지션 -->
-          <div class="theme-position"></div>
-          <!-- 역세권 포지션 -->
-          <div class="station-position"></div>
-          <!-- 요즘 뜨는 포지션 -->
-          <div class="new-job"></div>
+          <!-- 카드 뉴스 (2+~)-->
+          <div class="card-news">
+            <div class="box-top">
+              <h3 class="box-title title">지금 주목할 소식</h3>
+              <div class="button-box">
+                <button class="xi-angle-left left-button"></button>
+                <button class="xi-angle-right right-button"></button>
+              </div>
+            </div>
+            <div class="swiper card-news-container-set-wrap">
+              <div class="swiper-wrapper card-news-container-set">
+                <div class="swiper-slide card-news-container">
+                  <a href="#" class="card-news-wrap">
+                    <div class="card-news-img">
+                      <img src="./images/09.webp" alt="카드뉴스1" />
+                    </div>
+                    <div class="card-news-info">
+                      <div class="card-news-title">
+                        전액지원 취업교육 '윈티트 포텐업'
+                      </div>
+                      <div class="card-news">
+                        데이터·AI&게임 클라이언트 트렉
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <!-- <div class="swiper-slide card-news-container">
+                  <a href="#" class="card-news-wrap">
+                    <div class="card-news-img">
+                      <img src="./images/02.webp" alt="카드뉴스2" />
+                    </div>
+                    <div class="card-news-info">
+                      <div class="card-news-title">
+                        전액지원 취업교육 '윈티트 포텐업'
+                      </div>
+                      <div class="card-news">
+                        데이터·AI&게임 클라이언트 트렉
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide card-news-container">
+                  <a href="#" class="card-news-wrap">
+                    <div class="card-news-img">
+                      <img src="./images/04.webp" alt="카드뉴스3" />
+                    </div>
+                    <div class="card-news-info">
+                      <div class="card-news-title">
+                        전액지원 취업교육 '윈티트 포텐업'
+                      </div>
+                      <div class="card-news">
+                        데이터·AI&게임 클라이언트 트렉
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide card-news-container">
+                  <a href="#" class="card-news-wrap">
+                    <div class="card-news-img">
+                      <img src="./images/09.webp" alt="카드뉴스1" />
+                    </div>
+                    <div class="card-news-info">
+                      <div class="card-news-title">
+                        전액지원 취업교육 '윈티트 포텐업'
+                      </div>
+                      <div class="card-news">
+                        데이터·AI&게임 클라이언트 트렉
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide card-news-container">
+                  <a href="#" class="card-news-wrap">
+                    <div class="card-news-img">
+                      <img src="./images/02.webp" alt="카드뉴스2" />
+                    </div>
+                    <div class="card-news-info">
+                      <div class="card-news-title">
+                        전액지원 취업교육 '윈티트 포텐업'
+                      </div>
+                      <div class="card-news">
+                        데이터·AI&게임 클라이언트 트렉
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide card-news-container">
+                  <a href="#" class="card-news-wrap">
+                    <div class="card-news-img">
+                      <img src="./images/04.webp" alt="카드뉴스3" />
+                    </div>
+                    <div class="card-news-info">
+                      <div class="card-news-title">
+                        전액지원 취업교육 '윈티트 포텐업'
+                      </div>
+                      <div class="card-news">
+                        데이터·AI&게임 클라이언트 트렉
+                      </div>
+                    </div>
+                  </a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <!-- 테마별 회사/포지션(3) -->
+          <div class="theme-position">
+            <div class="box-top">
+              <h3 class="box-title title">테마로 살펴보는 회사/포지션</h3>
+              <div class="button-box">
+                <button class="xi-angle-left left-button"></button>
+                <button class="xi-angle-right right-button"></button>
+              </div>
+            </div>
+            <div class="swiper three-card">
+              <div class="swiper-wrapper theme-position-container">
+                <a href="#" class="swiper-slide theme-position-wrap">
+                  <div class="theme-position-img">
+                    <img src="./images/23.webp" alt="테마 이미지" />
+                  </div>
+                  <div class="theme-position-info">
+                    <div class="theme-position-title">
+                      커리어의 시작, 인턴 포지션
+                    </div>
+                    <span class="theme-position-company">인턴</span>
+                  </div>
+                </a>
+                <a href="#" class="swiper-slide theme-position-wrap">
+                  <div class="theme-position-img">
+                    <img src="./images/23.webp" alt="테마 이미지" />
+                  </div>
+                  <div class="theme-position-info">
+                    <div class="theme-position-title">
+                      커리어의 시작, 인턴 포지션
+                    </div>
+                    <span class="theme-position-company">인턴</span>
+                  </div>
+                </a>
+                <a href="#" class="swiper-slide theme-position-wrap">
+                  <div class="theme-position-img">
+                    <img src="./images/23.webp" alt="테마 이미지" />
+                  </div>
+                  <div class="theme-position-info">
+                    <div class="theme-position-title">
+                      커리어의 시작, 인턴 포지션
+                    </div>
+                    <span class="theme-position-company">인턴</span>
+                  </div>
+                </a>
+                <a href="#" class="swiper-slide theme-position-wrap">
+                  <div class="theme-position-img">
+                    <img src="./images/30.webp" alt="테마 이미지" />
+                  </div>
+                  <div class="theme-position-info">
+                    <div class="theme-position-title">
+                      커리어의 시작, 인턴 포지션
+                    </div>
+                    <span class="theme-position-company">인턴</span>
+                  </div>
+                </a>
+                <a href="#" class="swiper-slide theme-position-wrap">
+                  <div class="theme-position-img">
+                    <img src="./images/33.webp" alt="테마 이미지" />
+                  </div>
+                  <div class="theme-position-info">
+                    <div class="theme-position-title">
+                      커리어의 시작, 인턴 포지션
+                    </div>
+                    <span class="theme-position-company">인턴</span>
+                  </div>
+                </a>
+                <a href="#" class="swiper-slide theme-position-wrap">
+                  <div class="theme-position-img">
+                    <img src="./images/34.webp" alt="테마 이미지" />
+                  </div>
+                  <div class="theme-position-info">
+                    <div class="theme-position-title">
+                      커리어의 시작, 인턴 포지션
+                    </div>
+                    <span class="theme-position-company">인턴</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- 역세권 포지션(6) -->
+          <div class="station-position">
+            <div class="box-top">
+              <div class="box-top-right">
+                <h3 class="box-title">출퇴근 걱정 없는 역세권 포지션</h3>
+                <button class="gangnam">
+                  강남역 <span class="xi-caret-down-min"></span>
+                </button>
+              </div>
+              <div class="button-box">
+                <button class="xi-angle-left left-button"></button>
+                <button class="xi-angle-right right-button"></button>
+              </div>
+            </div>
+            <div class="station-positions">
+              <div class="station-position-container-set">
+                <div class="station-position-container">
+                  <a class="station-position-wrap">
+                    <div class="station-position-img">
+                      <img src="/images/28.webp" alt="역세권 포지션" />
+                    </div>
+                    <div class="station-position-info-box">
+                      <div class="station-position-job">
+                        백엔드 개발자(Node.js) (3년 이상)
+                      </div>
+                      <div class="station-position-company">비비던트코리아</div>
+                      <div class="station-position-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <div class="xi-bookmark-o station-bookmark"></div>
+                </div>
+                <div class="station-position-container">
+                  <a class="station-position-wrap">
+                    <div class="station-position-img">
+                      <img src="/images/28.webp" alt="역세권 포지션" />
+                    </div>
+                    <div class="station-position-info-box">
+                      <div class="station-position-job">
+                        백엔드 개발자(Node.js) (3년 이상)
+                      </div>
+                      <div class="station-position-company">비비던트코리아</div>
+                      <div class="station-position-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o station-bookmark"></a>
+                </div>
+              </div>
+              <div class="station-position-container-set">
+                <div class="station-position-container">
+                  <a class="station-position-wrap">
+                    <div class="station-position-img">
+                      <img src="/images/28.webp" alt="역세권 포지션" />
+                    </div>
+                    <div class="station-position-info-box">
+                      <div class="station-position-job">
+                        백엔드 개발자(Node.js) (3년 이상)
+                      </div>
+                      <div class="station-position-company">비비던트코리아</div>
+                      <div class="station-position-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <div class="xi-bookmark-o station-bookmark"></div>
+                </div>
+                <div class="station-position-container">
+                  <a class="station-position-wrap">
+                    <div class="station-position-img">
+                      <img src="/images/28.webp" alt="역세권 포지션" />
+                    </div>
+                    <div class="station-position-info-box">
+                      <div class="station-position-job">
+                        백엔드 개발자(Node.js) (3년 이상)
+                      </div>
+                      <div class="station-position-company">비비던트코리아</div>
+                      <div class="station-position-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o station-bookmark"></a>
+                </div>
+              </div>
+              <div class="station-position-container-set">
+                <div class="station-position-container">
+                  <a class="station-position-wrap">
+                    <div class="station-position-img">
+                      <img src="/images/28.webp" alt="역세권 포지션" />
+                    </div>
+                    <div class="station-position-info-box">
+                      <div class="station-position-job">
+                        백엔드 개발자(Node.js) (3년 이상)
+                      </div>
+                      <div class="station-position-company">비비던트코리아</div>
+                      <div class="station-position-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <div class="xi-bookmark-o station-bookmark"></div>
+                </div>
+                <div class="station-position-container">
+                  <a class="station-position-wrap">
+                    <div class="station-position-img">
+                      <img src="/images/28.webp" alt="역세권 포지션" />
+                    </div>
+                    <div class="station-position-info-box">
+                      <div class="station-position-job">
+                        백엔드 개발자(Node.js) (3년 이상)
+                      </div>
+                      <div class="station-position-company">비비던트코리아</div>
+                      <div class="station-position-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o station-bookmark"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 요즘 뜨는 포지션(4) -->
+          <div class="popular-job-box">
+            <div class="box-top">
+              <h3 class="box-title title">요즘 뜨는 포지션</h3>
+              <div class="button-box">
+                <button class="xi-angle-left left-button"></button>
+                <button class="xi-angle-right right-button"></button>
+              </div>
+            </div>
+            <div class="swiper four-card">
+              <div class="swiper-wrapper box-container-set">
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/23.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+                <div class="swiper-slide box-container">
+                  <a href="#" class="box-content-wrap">
+                    <div class="box-thum">
+                      <div class="box-thum-img">
+                        <img src="./images/35.webp" alt="직업 사진" />
+                      </div>
+                      <div class="box-info-top">
+                        <div class="job-pass">합격보상금</div>
+                      </div>
+                    </div>
+                    <div class="box-info-bottom">
+                      <div class="job-name">직종</div>
+                      <div class="job-company">회사명</div>
+                      <div class="job-etc">지역·경력</div>
+                    </div>
+                  </a>
+                  <a href="#" class="xi-bookmark-o bookmark"></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <!-- 하단 -->
     <footer class="footer">
-      <div class="layout">
+      <div class="footer-layout layout">
         <!-- 푸터 상단 -->
         <div class="footer-top">
           <!-- 푸터 로고 -->
-          <div class="footer-logo"></div>
+          <a href="/" class="footer-logo">
+            <img src="./images/svg/wanted_logo.svg" alt="wnated 로고" />
+          </a>
           <!-- 푸터 메뉴 -->
-          <div class="footer-menu"></div>
+          <ul class="footer-menu">
+            <li><a href="#">기업소개</a></li>
+            <li><a href="#">광고문의</a></li>
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">블로그</a></li>
+            <li><a href="#">개인정보 처리방침</a></li>
+          </ul>
         </div>
         <!-- 푸터 중간 -->
         <div class="footer-middle">
           <!-- 회사 정보 -->
-          <div class="company-impormation"></div>
+          <div class="company-impormation">
+            <div>
+              <span>(주)원티드랩</span>
+              <span>|</span>
+              <span>대표이사 이복기</span>
+            </div>
+            <div>
+              <span>서울특별시 송파구 올림픽로 300, 롯데월드 타워 35층</span>
+              <span>|</span>
+              <span>전화번호: 02-539-7118</span>
+            </div>
+            <div>
+              <span>사업자등록번호: 299-86-00021</span>
+              <span>|</span>
+              <span>통신판매번호: 2020-서울송파-3147</span>
+              <span>|</span>
+              <span
+                >유료직업소개사업등록번호:
+                (국내)제2020-3230259-14-5-00018호</span
+              >
+            </div>
+          </div>
           <!-- 기타 문의 -->
-          <div class="inquiry"></div>
+          <ul class="inquiry">
+            <li><a href="#">채용서비스 문의</a></li>
+            <li><a href="#">원티드스페이스 문의</a></li>
+            <li><a href="#">원티드긱스 문의</a></li>
+            <li><a href="#">프리온보딩 문의</a></li>
+            <li><a href="#">취업지원시스템 문의</a></li>
+            <li><a href="#">IR 문의</a></li>
+          </ul>
         </div>
         <!-- 푸터 하단 -->
         <div class="footer-bottom">
           <!-- 카피라이트 -->
-          <div class="copy"></div>
+          <div class="copy">
+            <span>© 2024 Wanted Lab, inc.</span>
+          </div>
           <!-- sns 공유 -->
-          <div class="sns"></div>
+          <div class="sns">
+            <a href="#" class="xi-instagram insta"></a>
+            <a href="#" class="xi-facebook-official facebook"></a>
+            <a href="#" class="xi-youtube-play youtube"></a>
+            <a href="#" class="xi-naver-square naver"></a>
+            <a href="#" class="xi-apple apple"></a>
+            <a href="#" class="xi-google-play google"></a>
+          </div>
         </div>
       </div>
     </footer>
     <!--버튼-->
-    <div class="button"></div>
+    <div class="qna-button-box">
+      <button class="xi-message-o qna-button"></button>
+    </div>
   </body>
 </html>

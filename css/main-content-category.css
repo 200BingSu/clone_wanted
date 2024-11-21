@@ -1,0 +1,42 @@
+/* 카테고리 */
+.main-content .category-wrap {
+  display: flex;
+  height: 100px;
+  padding: 24px 8px 8px 12px;
+  align-content: center;
+  justify-items: center;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.main-content .category-wrap .category {
+  width: 116px;
+  height: 94px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.category:hover {
+  background-color: rgb(241, 241, 241);
+}
+.category-wrap .category a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  justify-items: center;
+  cursor: pointer;
+}
+
+.category-wrap .category .cate-img {
+  width: 56px;
+  height: 56px;
+}
+.category-wrap .category .cate-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.category-wrap .category .cate-title {
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 500;
+  font-size: 13px;
+}

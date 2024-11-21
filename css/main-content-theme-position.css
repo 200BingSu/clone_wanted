@@ -1,0 +1,51 @@
+/* 테마별 회사/포지션 */
+.theme-position {
+  height: 312px;
+}
+.theme-position-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.theme-position-wrap {
+  position: relative;
+  width: 340px;
+  height: 260px;
+  border: 1px solid rgba(235, 235, 235, 0.342);
+  border-radius: 12px;
+  background-color: lightgray;
+  overflow: hidden;
+}
+.theme-position-wrap:hover .theme-position-img {
+  transform: scale(1.05, 1.05);
+}
+.theme-position-img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+}
+.theme-position-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.theme-position-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 86px;
+  padding: 20px;
+  background-color: #fff;
+  align-content: center;
+}
+.theme-position-info .theme-position-title {
+  color: rgb(23, 23, 25);
+  font-weight: 600;
+  font-size: 17px;
+}
+.theme-position-info .theme-position-company {
+  color: rgba(55, 56, 60, 0.61);
+  font-weight: 600;
+  font-size: 17px;
+}

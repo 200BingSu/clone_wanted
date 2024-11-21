@@ -1,0 +1,52 @@
+/* 헤더 좌측 */
+.header-left {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header-left .header-logo {
+  width: 152px;
+  height: 32px;
+  padding-right: 40px;
+}
+.header-left .header-logo a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.header-left .header-logo img {
+  width: 100%;
+  height: 100%;
+}
+.header-menu-wrap {
+  display: flex;
+  width: 477px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-menu-wrap .header-menu {
+}
+.header-menu-wrap:first-child {
+  align-content: center;
+}
+.header-menu a img {
+  margin-right: 5px;
+}
+.header-menu-wrap .header-menu {
+  color: #333;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.menu-active {
+  color: rgb(204, 204, 204);
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.header-menu-wrap .header-menu .header-menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
