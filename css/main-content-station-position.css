@@ -1,5 +1,5 @@
 /* 역세권 포지션 */
-.station-position {
+/* .station-position {
   width: 100%;
 }
 .box-top-right {
@@ -96,4 +96,26 @@
   color: rgba(55, 56, 60, 0.608);
   font-weight: 500;
   font-size: 13px;
+} */
+.mySwiper.swiper {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mySwiper.swiper-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Grid 기능에 필요 */
+}
+.mySwiper.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: calc((100% / 2));
+  height: calc((100% - 30px) / 3) !important;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
