@@ -128,8 +128,9 @@
   margin-top: 30px;
 }
 .add-menu-wrap {
+  width: 100%;
   display: flex;
-  gap: 80px;
+  justify-content: space-between;
 }
 .add-menu {
   display: flex;
@@ -153,6 +154,19 @@
 }
 
 .add-menu-card {
+  width: 212px;
+  height: 282px;
+  background-color: lightblue;
+}
+.add-menu-card-link {
+}
+.add-menu-card-link img {
+}
+.add-menu-card-link .add-menu-card-text {
+}
+.add-menu-card-text p {
+}
+.add-menu-card-text i {
 }
 .add-menu-card .add-menu-box-active {
   height: 355px;
