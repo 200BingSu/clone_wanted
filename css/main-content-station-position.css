@@ -1,7 +1,6 @@
 /* 역세권 포지션 */
 .station-position {
   width: 100%;
-  height: 800px;
 }
 .box-top-right {
   display: flex;
@@ -23,7 +22,73 @@
 .gangnam:hover {
   background-color: rgb(230, 230, 230);
 }
-.station-position .swiper {
+.station-constainer-set {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, calc((100% - 20px) / 2));
+  grid-template-rows: repeat(3, calc((100%-20px) / 3));
+  gap: 20px;
+}
+.station-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.statinon-box {
+  display: flex;
+  height: 100%;
+}
+.station-thum {
+  width: 120px;
+  height: 90px;
+  background-color: lightgray;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+.station-thum .station-img {
+  width: 100%;
+  height: 100%;
+}
+.station-thum:hover .station-img img {
+  transform: scale(1.05, 1.05);
+}
+
+.station-thum .station-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.station-info {
+  width: 343px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+  margin: auto 0;
+}
+.station-info .station-job-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.station-info .station-position-company {
+  color: rgba(55, 56, 60, 0.608);
+  font-weight: 500;
+  font-size: 13px;
+}
+.station-info .station-position-etc {
+  color: rgba(55, 56, 60, 0.608);
+  font-weight: 500;
+  font-size: 13px;
+}
+/* .station-position .station-slide {
   width: 100%;
   height: 100%;
   margin-left: auto;
@@ -32,16 +97,17 @@
 .station-position-container-set {
   width: 100%;
 }
-.station-position .swiper-slide {
+.station-position .station-position-container {
   text-align: center;
   font-size: 18px;
   background: skyblue;
   width: calc((100%) / 2);
   height: 90px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, calc(100% / 2));
+  grid-template-rows: repeat(3, calc(100% / 3));
 }
+
 .station-position-wrap {
   display: flex;
   cursor: pointer;
@@ -61,14 +127,7 @@
   object-fit: cover;
   transition: all 0.3s;
 }
-.station-position-wrap .station-position-info-box {
-}
-.station-position-info-box .station-position-job {
-}
-.station-position-info-box .station-position-company {
-}
-.station-position-info-box .station-position-etc {
-}
+
 .station-bookmark {
   opacity: 0;
   font-size: 20px;
@@ -103,44 +162,4 @@
   color: rgba(55, 56, 60, 0.608);
   font-weight: 500;
   font-size: 13px;
-}
-/* 
-
-
-
-
-
-
- */
-/* .station-position-wrap {
-  display: block;
-  width: 100%;
-  align-items: center;
-  gap: 15px;
-}
-.station-bookmark {
-  position: absolute;
-  right: 10px;
-  top: 45px;
-  display: none;
-  font-size: 20px;
-  color: rgb(192, 192, 192);
-}
-
-
-
-.station-position-wrap .station-position-img {
-  width: 120px;
-  height: 90px;
-  background-color: lightgray;
-  border-radius: 12px;
-  overflow: hidden;
-}
-.station-position-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.3s;
-}
-
- */
+} */
