@@ -3,12 +3,22 @@
 .popular-job-box {
   height: 274.5px;
 }
+.four-card {
+  overflow: visible;
+  position: relative;
+}
+.popular-job-box .button-box {
+  position: absolute;
+  top: -42px;
+  right: 0;
+}
 
 .box-container-set {
   display: flex;
   height: 100%;
   justify-content: space-between;
 }
+
 .box-container {
   display: block;
   width: 250px;
@@ -32,7 +42,7 @@
   overflow: hidden;
 }
 .box-content-wrap:hover .box-thum-img {
-  transform: scale(1.05, 1.05);
+  transform: scale(1.03, 1.03);
 }
 .box-thum .box-thum-img {
   width: 100%;
@@ -58,7 +68,7 @@
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); */
 }
 .box-thum::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
