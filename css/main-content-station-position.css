@@ -6,26 +6,62 @@
   display: flex;
   align-items: center;
 }
-.gangnam {
+.select-station {
+  position: relative;
+}
+.selected-position {
+  width: 81px;
+  height: 32px;
   padding: 7px 8px 7px 12px;
   border: 1px solid rgb(212, 212, 212);
   color: rgb(23, 23, 25);
   background-color: white;
   border-radius: 10px;
-  font-size: 14px;
-  font-weight: 700;
-}
-.gangnam span {
+  font-size: 15px;
+  font-weight: 500;
   color: rgb(23, 23, 25);
   transition: all 0.5s;
 }
-.gangnam:hover {
+.selected-position:hover {
   background-color: rgb(230, 230, 230);
 }
+.station-list {
+  display: flex;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  border-radius: 16px;
+  width: 148px;
+  height: 436px;
+  border: 1px solid rgb(199, 199, 199);
+  background-color: #fff;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: left;
+  z-index: 2;
+}
+.station-list li {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 16px;
+  align-items: center;
+  padding-left: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.station-list li:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+/* 목록 */
 .station-constainer-set {
+  display: grid;
   width: 100%;
   height: 100%;
-  display: grid;
   grid-template-columns: repeat(2, calc((100% - 20px) / 2));
   grid-template-rows: repeat(3, calc((100%-20px) / 3));
   gap: 20px;
@@ -62,9 +98,9 @@
   transition: all 0.3s;
 }
 .station-info {
+  display: flex;
   width: 343px;
   height: 100%;
-  display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;

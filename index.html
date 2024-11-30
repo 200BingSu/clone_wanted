@@ -45,6 +45,7 @@
     <script src="./js/addmenu.js"></script>
     <script src="./js/card-news.js"></script>
     <script src="./js/station-slide.js"></script>
+    <script src="./js/station-position-list.js"></script>
   </head>
   <body>
     <!-- 상단 -->
@@ -788,16 +789,28 @@
             <div class="box-top">
               <div class="box-top-right">
                 <h3 class="box-title">출퇴근 걱정 없는 역세권 포지션</h3>
-                <button class="gangnam">
-                  강남역 <span class="xi-caret-down-min"></span>
-                </button>
+                <div class="select-station">
+                  <button class="selected-position">강남역 ▾</button>
+                  <ul class="station-list">
+                    <li>강남역</li>
+                    <li>선릉역</li>
+                    <li>삼성역</li>
+                    <li>성수역</li>
+                    <li>잠실역</li>
+                    <li>논현역</li>
+                    <li>선정릉역</li>
+                    <li>공덕역</li>
+                    <li>홍대입구역</li>
+                    <li>판교역</li>
+                  </ul>
+                </div>
               </div>
               <div class="button-box">
                 <button class="xi-angle-left left-button"></button>
                 <button class="xi-angle-right right-button"></button>
               </div>
             </div>
-            <div class="swiper station-slide">
+            <div class="swiper station-slide station-slide">
               <div class="swiper-wrapper station-constainer-set">
                 <div class="swiper-slide station-container">
                   <a href="#" class="statinon-box">

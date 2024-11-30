@@ -1,12 +1,12 @@
-window.addEventListener('load', () => {
-  const CARD_NEWS_DATA_URL = '/apis/card-news.json';
+window.addEventListener("load", () => {
+  const CARD_NEWS_DATA_URL = "/apis/card-news.json";
   fetch(CARD_NEWS_DATA_URL)
     .then((response) => {
       const result = response.json();
       return result;
     })
     .then((result) => {
-      let htmlCard = '';
+      let htmlCard = "";
       for (let i = 0; i < result.length; i++) {
         const tag = `<div class="swiper-slide card-news-box">
                   <a href="${result[i].link}" class="card-news">
@@ -25,8 +25,7 @@ window.addEventListener('load', () => {
                 </div>`;
         htmlCard += tag;
       }
-      const cardNewsContainer = document.querySelector('.card-news-container');
-      console.log(cardNewsContainer);
+      const cardNewsContainer = document.querySelector(".card-news-container");
       cardNewsContainer.innerHTML = htmlCard;
     })
     .catch((error) => {});

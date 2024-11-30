@@ -3,9 +3,10 @@
 }
 .card-news-containers {
   width: 100%;
+  position: relative;
 }
 .card-news-containers::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0px;
   bottom: 0;
@@ -19,13 +20,17 @@
   z-index: 2;
 }
 .card-news-containers::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0px;
-  top: 0;
+  bottom: 0;
   width: 40px;
   height: 305px;
-  background: linear-gradient(to left, #ffffff 10%, rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 85) 10%,
+    rgba(255, 255, 255, 0)
+  );
   z-index: 2;
 }
 .card-news-container {
