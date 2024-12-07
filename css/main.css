@@ -34,7 +34,7 @@
 }
 
 /* 슬라이드 버튼 */
-.button-box {
+/* .button-box {
   display: flex;
   width: 64px;
   height: 32px;
@@ -62,4 +62,4 @@
 }
 .right-button:hover {
   background-color: rgb(230, 230, 230);
-}
+} */
