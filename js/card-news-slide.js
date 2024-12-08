@@ -3,8 +3,8 @@ window.addEventListener("load", function () {
     slidesPerView: 2.5,
     spaceBetween: 20,
     navigation: {
-      nextEl: ".card-news-containers .swiper-button-next",
-      prevEl: ".card-news-containers .swiper-button-prev",
+      nextEl: ".card-news-containers .next-button",
+      prevEl: ".card-news-containers .prev-button",
     },
   });
 });
