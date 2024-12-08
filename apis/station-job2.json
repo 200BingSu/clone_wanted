@@ -1,0 +1,944 @@
+{
+  "metro": {
+    "id": 2,
+    "name": "선릉역"
+  },
+  "positions": [
+    {
+      "id": 252537,
+      "status": "active",
+      "position": "NPU HW Engineer(전문연구요원)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 4,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 2534,
+        "name": "칩스앤미디어"
+      }
+    },
+    {
+      "id": 252404,
+      "status": "active",
+      "position": "프론트 엔드 개발자 (3년 이상)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/27997/ipfikkrqsrmzfsca__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/27997/ipfikkrqsrmzfsca__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 27997,
+        "name": "케이비헬스케어(KB헬스케어)"
+      }
+    },
+    {
+      "id": 252535,
+      "status": "active",
+      "position": "RTL Design/Verification Engineer(9년 이상)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 16,
+        "annual_from": 9
+      },
+      "company": {
+        "id": 2534,
+        "name": "칩스앤미디어"
+      }
+    },
+    {
+      "id": 252533,
+      "status": "active",
+      "position": "FW Engineer(9년 이상)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 16,
+        "annual_from": 9
+      },
+      "company": {
+        "id": 2534,
+        "name": "칩스앤미디어"
+      }
+    },
+    {
+      "id": 252532,
+      "status": "active",
+      "position": "HW Engineer (전문연구요원)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 1,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 2534,
+        "name": "칩스앤미디어"
+      }
+    },
+    {
+      "id": 251726,
+      "status": "active",
+      "position": "전략기획실 경영기획담당 (5년 이상)",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/698/ogdhkgt1088pfpds__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/698/ogdhkgt1088pfpds__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 13,
+        "annual_from": 5
+      },
+      "company": {
+        "id": 698,
+        "name": "로지스팟"
+      }
+    },
+    {
+      "id": 252484,
+      "status": "active",
+      "position": "Growth Contents Designer",
+      "is_bookmark": false,
+      "category_parent_id": 511,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 7,
+        "annual_from": 4
+      },
+      "company": {
+        "id": 10102,
+        "name": "뷰티셀렉션"
+      }
+    },
+    {
+      "id": 252259,
+      "status": "active",
+      "position": "SaaS PO  (주니어, 시니어)",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/2496/17440_2_7.225e005d__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/2496/17440_2_7.225e005d__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 2496,
+        "name": "홈즈컴퍼니"
+      }
+    },
+    {
+      "id": 242845,
+      "status": "active",
+      "position": "US Amazon Manager",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 10102,
+        "name": "뷰티셀렉션"
+      }
+    },
+    {
+      "id": 252422,
+      "status": "active",
+      "position": "Global HRBP",
+      "is_bookmark": false,
+      "category_parent_id": 522,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 7,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 10102,
+        "name": "뷰티셀렉션"
+      }
+    },
+    {
+      "id": 252268,
+      "status": "active",
+      "position": "리크루팅 매니저",
+      "is_bookmark": false,
+      "category_parent_id": 517,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/4250/1dmpypaqmzofsojb__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/4250/1dmpypaqmzofsojb__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 4250,
+        "name": "아이샵케어"
+      }
+    },
+    {
+      "id": 242839,
+      "status": "active",
+      "position": "Global Influencer Collaboration Manager",
+      "is_bookmark": false,
+      "category_parent_id": 523,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 10102,
+        "name": "뷰티셀렉션"
+      }
+    },
+    {
+      "id": 242828,
+      "status": "active",
+      "position": "Global Marketing Manager",
+      "is_bookmark": false,
+      "category_parent_id": 523,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 10102,
+        "name": "뷰티셀렉션"
+      }
+    },
+    {
+      "id": 238799,
+      "status": "active",
+      "position": "US Business Development/Marketing Manager",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 13,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 10102,
+        "name": "뷰티셀렉션"
+      }
+    },
+    {
+      "id": 238797,
+      "status": "active",
+      "position": "Global B2B Sales Manager",
+      "is_bookmark": false,
+      "category_parent_id": 530,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 10102,
+        "name": "뷰티셀렉션"
+      }
+    },
+    {
+      "id": 238800,
+      "status": "active",
+      "position": "Global E-Commerce Manager",
+      "is_bookmark": false,
+      "category_parent_id": 510,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 10102,
+        "name": "뷰티셀렉션"
+      }
+    },
+    {
+      "id": 238794,
+      "status": "active",
+      "position": "Global SCM Manager",
+      "is_bookmark": false,
+      "category_parent_id": 532,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10102/nce7nizd6mkbqlow__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 5
+      },
+      "company": {
+        "id": 10102,
+        "name": "뷰티셀렉션"
+      }
+    },
+    {
+      "id": 247833,
+      "status": "active",
+      "position": "인테리어 팀장",
+      "is_bookmark": false,
+      "category_parent_id": 511,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/7024/icmeglbfyoeoc8f7__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/7024/icmeglbfyoeoc8f7__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 10
+      },
+      "company": {
+        "id": 7024,
+        "name": "케어닥"
+      }
+    },
+    {
+      "id": 252441,
+      "status": "active",
+      "position": "건설중장비 해외소싱 및 수출입관리 (러시아어필수)",
+      "is_bookmark": false,
+      "category_parent_id": 530,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/6851/l0xms8uiv2venwxh__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/6851/l0xms8uiv2venwxh__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 6851,
+        "name": "알씨이"
+      }
+    },
+    {
+      "id": 252416,
+      "status": "active",
+      "position": "패션슈즈 브랜드MD (5년이상, 팀장급)",
+      "is_bookmark": false,
+      "category_parent_id": 510,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/21599/fpborciusnccl9rq__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/21599/fpborciusnccl9rq__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 5
+      },
+      "company": {
+        "id": 21599,
+        "name": "크리스틴컴퍼니"
+      }
+    },
+    {
+      "id": 250371,
+      "status": "active",
+      "position": "주니어 프로덕트 매니저",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/37749/z4mtm2bgbe6y36zy__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/37749/z4mtm2bgbe6y36zy__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 3,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 37749,
+        "name": "머스트핀테크"
+      }
+    },
+    {
+      "id": 231453,
+      "status": "active",
+      "position": "백엔드 개발자 (벤지니어)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/37749/z4mtm2bgbe6y36zy__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/37749/z4mtm2bgbe6y36zy__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 5
+      },
+      "company": {
+        "id": 37749,
+        "name": "머스트핀테크"
+      }
+    },
+    {
+      "id": 136064,
+      "status": "active",
+      "position": "글로벌 프로젝트(프로덕트) 매니저",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/37749/z4mtm2bgbe6y36zy__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/37749/z4mtm2bgbe6y36zy__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 37749,
+        "name": "머스트핀테크"
+      }
+    },
+    {
+      "id": 181390,
+      "status": "active",
+      "position": "글로벌 프로젝트(프로덕트) 매니저 (신입)",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/37749/z4mtm2bgbe6y36zy__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/37749/z4mtm2bgbe6y36zy__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 1,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 37749,
+        "name": "머스트핀테크"
+      }
+    },
+    {
+      "id": 252435,
+      "status": "active",
+      "position": "신사업 개발(BD)",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/9205/xd05bjd3o7vbf1h4__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/9205/xd05bjd3o7vbf1h4__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 9205,
+        "name": "포자랩스"
+      }
+    },
+    {
+      "id": 252421,
+      "status": "active",
+      "position": "[사업기획] 웰니스 브랜드 사업부 PO",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/51108/ms2m9qjd4zipnjet__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/51108/ms2m9qjd4zipnjet__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 51108,
+        "name": "유니언하우스"
+      }
+    },
+    {
+      "id": 252323,
+      "status": "active",
+      "position": "재테크 교육 상품 PM",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/12973/lcjg9qxi7rddu1z8__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/12973/lcjg9qxi7rddu1z8__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 7,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 12973,
+        "name": "팬딩(Fanding)"
+      }
+    },
+    {
+      "id": 252408,
+      "status": "active",
+      "position": "회계 및 경영지원 담당자(5년 이상)",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/3866/fqfub65bd4fyeoau__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/3866/fqfub65bd4fyeoau__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 5
+      },
+      "company": {
+        "id": 3866,
+        "name": "쓰리빌리언(3Billion)"
+      }
+    },
+    {
+      "id": 252394,
+      "status": "active",
+      "position": "백엔드 개발자 (5년 이상)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/27997/ipfikkrqsrmzfsca__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/27997/ipfikkrqsrmzfsca__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 5
+      },
+      "company": {
+        "id": 27997,
+        "name": "케이비헬스케어(KB헬스케어)"
+      }
+    },
+    {
+      "id": 252405,
+      "status": "active",
+      "position": "일본 오프라인 영업 (대리-과장급)",
+      "is_bookmark": false,
+      "category_parent_id": 523,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 4
+      },
+      "company": {
+        "id": 15694,
+        "name": "브이티코스메틱"
+      }
+    },
+    {
+      "id": 252402,
+      "status": "active",
+      "position": "국내마케팅 과장급",
+      "is_bookmark": false,
+      "category_parent_id": 523,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 12,
+        "annual_from": 7
+      },
+      "company": {
+        "id": 15694,
+        "name": "브이티코스메틱"
+      }
+    },
+    {
+      "id": 227043,
+      "status": "active",
+      "position": "[챌린저스] 경영지원 (신입~5년)",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/5787/2tpvj6kjclu8izld__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/5787/2tpvj6kjclu8izld__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 5787,
+        "name": "화이트큐브"
+      }
+    },
+    {
+      "id": 252396,
+      "status": "active",
+      "position": "글로벌(영미)마케팅 파트장",
+      "is_bookmark": false,
+      "category_parent_id": 523,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 5
+      },
+      "company": {
+        "id": 15694,
+        "name": "브이티코스메틱"
+      }
+    },
+    {
+      "id": 252397,
+      "status": "active",
+      "position": "자금 관리 담당자",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/16783/xmryk1h8xpdpfjxu__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/16783/xmryk1h8xpdpfjxu__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 16783,
+        "name": "콜로세움코퍼레이션"
+      }
+    },
+    {
+      "id": 252393,
+      "status": "active",
+      "position": "내부회계 대리급",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 4
+      },
+      "company": {
+        "id": 15694,
+        "name": "브이티코스메틱"
+      }
+    },
+    {
+      "id": 252392,
+      "status": "active",
+      "position": "구매 (대리/과장급)",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/15694/ckcf0avjdg066xer__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 4
+      },
+      "company": {
+        "id": 15694,
+        "name": "브이티코스메틱"
+      }
+    }
+  ]
+}

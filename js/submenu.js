@@ -25,17 +25,4 @@ window.addEventListener('load', function () {
     submenuBg.classList.remove('submenu-bg-active');
     submenuSlide.slideToLoop(0);
   });
-
-  // 더보기 메뉴 애니메이션
-  const addMenuBtn = document.querySelector('#add-menu-btn');
-  const addMenuBox = document.querySelector('.add-menu-box');
-  console.log(addMenuBtn);
-  addMenuBtn.addEventListener('mouseenter', function () {
-    addMenuBox.classList.add('add-menu-box-activ');
-    submenuBg.classList.add('submenu-bg-active');
-  });
-  addMenuBox.addEventListener('mouseleave', function () {
-    submenuBox.classList.remove('submenu-box-active');
-    submenuBg.classList.remove('submenu-bg-active');
-  });
 });

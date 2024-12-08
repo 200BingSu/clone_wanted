@@ -9,7 +9,7 @@
 }
 
 /* 메인 상단 */
-.main-top {
+.main-tip {
 }
 
 /* 메인 내용 */
@@ -18,3 +18,48 @@
   flex-direction: column;
   gap: 64px;
 }
+
+/* 카테고리 타이틀 */
+.box-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  height: 22px;
+}
+.box-top .box-title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+/* 슬라이드 버튼 */
+/* .button-box {
+  display: flex;
+  width: 64px;
+  height: 32px;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.button-box .left-button {
+  width: 31px;
+  height: 30px;
+  border: none;
+  color: rgb(212, 212, 212);
+  background-color: white;
+}
+.button-box .right-button {
+  width: 31px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  color: rgb(51, 51, 51);
+}
+.left-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+.right-button:hover {
+  background-color: rgb(230, 230, 230);
+} */

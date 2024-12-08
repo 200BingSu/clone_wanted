@@ -10,7 +10,6 @@
     />
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link
       rel="stylesheet"
       href="https://meyerweb.com/eric/tools/css/reset/reset.css"
@@ -27,18 +26,26 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/header-left.css" />
     <link rel="stylesheet" href="./css/header-right.css" />
+    <link rel="stylesheet" href="./css/header-submenu.css" />
+    <link rel="stylesheet" href="./css/header-add-menu.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/main-top.css" />
+    <link rel="stylesheet" href="./css/main-tip.css" />
     <link rel="stylesheet" href="./css/main-content-category.css" />
     <link rel="stylesheet" href="./css/main-content-popular-job.css" />
     <link rel="stylesheet" href="./css/main-content-card-news.css" />
     <link rel="stylesheet" href="./css/main-content-theme-position.css" />
     <link rel="stylesheet" href="./css/main-content-station-position.css" />
     <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/button.css" />
-    <script src="./js/swiper-slide.js"></script>
+    <link rel="stylesheet" href="./css/qna-button.css" />
+    <script src="./js/three-card-slide.js"></script>
+    <script src="./js/four-card-slide.js"></script>
+    <script src="./js/card-news-slide.js"></script>
     <script src="./js/header-menu.js"></script>
     <script src="./js/submenu.js"></script>
+    <script src="./js/addmenu.js"></script>
+    <script src="./js/card-news.js"></script>
+    <script src="./js/station-slide.js"></script>
+    <script src="./js/station-position-list.js"></script>
   </head>
   <body>
     <!-- 상단 -->
@@ -186,16 +193,12 @@
                 <li><a href="#">원티드 취업지원 시스템</a></li>
               </ul>
             </li>
+            <li class="add-menu-card">
+              <a href="#" class="add-menu-card-link">
+                <img src="./images/point-banner.png" alt="커리어 포인트" />
+              </a>
+            </li>
           </ul>
-          <div class="add-menu-card">
-            <a href="#" class="add-menu-card-link">
-              <img src="#" alt="커리어 포인트" />
-              <div class="add-menu-card-text">
-                <p>커리어를 쌓으면 포인트가 쌓여요.</p>
-                <p>포인트 확인하기<i class="xi-angle-right"></i></p>
-              </div>
-            </a>
-          </div>
         </div>
       </div>
     </header>
@@ -204,11 +207,11 @@
     <main class="main">
       <div class="main-layout layout">
         <!--메인 상단-->
-        <div class="main-top">
+        <div class="main-tip">
           <!-- 팁 -->
           <a href="#" class="tip">
             <div class="tip-img">
-              <!-- <img src="#" alt="팁 이미지" /> -->
+              <img src="./images/Gommy_Expect_1.webp" />
             </div>
             <div class="tip-sentence">
               로그인하시면
@@ -297,15 +300,11 @@
             </li>
           </ul>
           <!-- 인기 구직 (4)-->
-          <div class="popular-job-box">
+          <div class="hot popular-job-box">
             <div class="box-top">
               <h3 class="box-title title">모두가 주목하고 있어요!</h3>
-              <div class="button-box">
-                <button class="xi-angle-left left-button"></button>
-                <button class="xi-angle-right right-button"></button>
-              </div>
             </div>
-            <div class="swiper four-card">
+            <div class="swiper popular-slide">
               <div class="swiper-wrapper box-container-set">
                 <div class="swiper-slide box-container">
                   <a href="#" class="box-content-wrap">
@@ -668,109 +667,36 @@
                   <a href="#" class="xi-bookmark-o bookmark"></a>
                 </div>
               </div>
+              <div class="button-box">
+                <button class="xi-angle-left left-button"></button>
+                <button class="xi-angle-right right-button"></button>
+              </div>
             </div>
           </div>
           <!-- 카드 뉴스 (2+~)-->
           <div class="card-news">
             <div class="box-top">
               <h3 class="box-title title">지금 주목할 소식</h3>
-              <div class="button-box">
-                <button class="xi-angle-left left-button"></button>
-                <button class="xi-angle-right right-button"></button>
-              </div>
             </div>
-            <div class="swiper card-news-container-set-wrap">
-              <div class="swiper-wrapper card-news-container-set">
-                <div class="swiper-slide card-news-container">
-                  <a href="#" class="card-news-wrap">
-                    <div class="card-news-img">
-                      <img src="./images/09.webp" alt="카드뉴스1" />
-                    </div>
-                    <div class="card-news-info">
-                      <div class="card-news-title">
-                        전액지원 취업교육 '윈티트 포텐업'
+            <div class="swiper card-news-containers">
+              <div class="swiper-wrapper card-news-container">
+                <div class="swiper-slide card-news-box">
+                  <div>
+                    <a href="#" class="card-news">
+                      <div class="card-news-img">
+                        <img src="./images/09.webp" alt="카드뉴스1" />
                       </div>
-                      <div class="card-news">
-                        데이터·AI&게임 클라이언트 트렉
+                      <div class="card-news-info">
+                        <div class="card-news-title">
+                          전액지원 취업교육 '윈티트 포텐업'
+                        </div>
+                        <div class="card-news-text">
+                          데이터·AI&게임 클라이언트 트렉
+                        </div>
                       </div>
-                    </div>
-                  </a>
+                    </a>
+                  </div>
                 </div>
-                <!-- <div class="swiper-slide card-news-container">
-                  <a href="#" class="card-news-wrap">
-                    <div class="card-news-img">
-                      <img src="./images/02.webp" alt="카드뉴스2" />
-                    </div>
-                    <div class="card-news-info">
-                      <div class="card-news-title">
-                        전액지원 취업교육 '윈티트 포텐업'
-                      </div>
-                      <div class="card-news">
-                        데이터·AI&게임 클라이언트 트렉
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="swiper-slide card-news-container">
-                  <a href="#" class="card-news-wrap">
-                    <div class="card-news-img">
-                      <img src="./images/04.webp" alt="카드뉴스3" />
-                    </div>
-                    <div class="card-news-info">
-                      <div class="card-news-title">
-                        전액지원 취업교육 '윈티트 포텐업'
-                      </div>
-                      <div class="card-news">
-                        데이터·AI&게임 클라이언트 트렉
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="swiper-slide card-news-container">
-                  <a href="#" class="card-news-wrap">
-                    <div class="card-news-img">
-                      <img src="./images/09.webp" alt="카드뉴스1" />
-                    </div>
-                    <div class="card-news-info">
-                      <div class="card-news-title">
-                        전액지원 취업교육 '윈티트 포텐업'
-                      </div>
-                      <div class="card-news">
-                        데이터·AI&게임 클라이언트 트렉
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="swiper-slide card-news-container">
-                  <a href="#" class="card-news-wrap">
-                    <div class="card-news-img">
-                      <img src="./images/02.webp" alt="카드뉴스2" />
-                    </div>
-                    <div class="card-news-info">
-                      <div class="card-news-title">
-                        전액지원 취업교육 '윈티트 포텐업'
-                      </div>
-                      <div class="card-news">
-                        데이터·AI&게임 클라이언트 트렉
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="swiper-slide card-news-container">
-                  <a href="#" class="card-news-wrap">
-                    <div class="card-news-img">
-                      <img src="./images/04.webp" alt="카드뉴스3" />
-                    </div>
-                    <div class="card-news-info">
-                      <div class="card-news-title">
-                        전액지원 취업교육 '윈티트 포텐업'
-                      </div>
-                      <div class="card-news">
-                        데이터·AI&게임 클라이언트 트렉
-                      </div>
-                    </div>
-                  </a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -859,124 +785,138 @@
             <div class="box-top">
               <div class="box-top-right">
                 <h3 class="box-title">출퇴근 걱정 없는 역세권 포지션</h3>
-                <button class="gangnam">
-                  강남역 <span class="xi-caret-down-min"></span>
-                </button>
-              </div>
-              <div class="button-box">
-                <button class="xi-angle-left left-button"></button>
-                <button class="xi-angle-right right-button"></button>
+                <div class="select-station">
+                  <button class="selected-position">
+                    <span>강남역</span><i>▾</i>
+                  </button>
+                  <ul class="station-list">
+                    <li class="station-active" id="st-li1">강남역</li>
+                    <li class="station" id="st-li2">선릉역</li>
+                    <li class="station" id="st-li3">삼성역</li>
+                    <li class="station" id="st-li4">성수역</li>
+                    <li class="station" id="st-li5">잠실역</li>
+                    <li class="station" id="st-li6">논현역</li>
+                    <li class="station" id="st-li7">선정릉역</li>
+                    <li class="station" id="st-li8">공덕역</li>
+                    <li class="station" id="st-li9">홍대입구역</li>
+                    <li class="station" id="st-li10">판교역</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div class="station-positions">
-              <div class="station-position-container-set">
-                <div class="station-position-container">
-                  <a class="station-position-wrap">
-                    <div class="station-position-img">
-                      <img src="/images/28.webp" alt="역세권 포지션" />
+            <div class="swiper station-slide station-slide">
+              <div class="swiper-wrapper station-constainer-set">
+                <div class="swiper-slide station-container">
+                  <a href="#" class="statinon-box">
+                    <div class="station-thum">
+                      <div class="station-img">
+                        <img src="/images/28.webp" alt="역세권 포지션" />
+                      </div>
                     </div>
-                    <div class="station-position-info-box">
-                      <div class="station-position-job">
+                    <div class="station-info">
+                      <div class="station-job-name">
                         백엔드 개발자(Node.js) (3년 이상)
                       </div>
                       <div class="station-position-company">비비던트코리아</div>
                       <div class="station-position-etc">지역·경력</div>
                     </div>
                   </a>
-                  <div class="xi-bookmark-o station-bookmark"></div>
+                  <i class="xi-bookmark-o station-bookmark"></i>
                 </div>
-                <div class="station-position-container">
-                  <a class="station-position-wrap">
-                    <div class="station-position-img">
-                      <img src="/images/28.webp" alt="역세권 포지션" />
+                <div class="swiper-slide station-container">
+                  <a href="#" class="statinon-box">
+                    <div class="station-thum">
+                      <div class="station-img">
+                        <img src="/images/28.webp" alt="역세권 포지션" />
+                      </div>
                     </div>
-                    <div class="station-position-info-box">
-                      <div class="station-position-job">
+                    <div class="station-info">
+                      <div class="station-job-name">
                         백엔드 개발자(Node.js) (3년 이상)
                       </div>
                       <div class="station-position-company">비비던트코리아</div>
                       <div class="station-position-etc">지역·경력</div>
                     </div>
                   </a>
-                  <a href="#" class="xi-bookmark-o station-bookmark"></a>
+                  <i class="xi-bookmark-o station-bookmark"></i>
                 </div>
-              </div>
-              <div class="station-position-container-set">
-                <div class="station-position-container">
-                  <a class="station-position-wrap">
-                    <div class="station-position-img">
-                      <img src="/images/28.webp" alt="역세권 포지션" />
+                <div class="swiper-slide station-container">
+                  <a href="#" class="statinon-box">
+                    <div class="station-thum">
+                      <div class="station-img">
+                        <img src="/images/28.webp" alt="역세권 포지션" />
+                      </div>
                     </div>
-                    <div class="station-position-info-box">
-                      <div class="station-position-job">
+                    <div class="station-info">
+                      <div class="station-job-name">
                         백엔드 개발자(Node.js) (3년 이상)
                       </div>
                       <div class="station-position-company">비비던트코리아</div>
                       <div class="station-position-etc">지역·경력</div>
                     </div>
                   </a>
-                  <div class="xi-bookmark-o station-bookmark"></div>
+                  <i class="xi-bookmark-o station-bookmark"></i>
                 </div>
-                <div class="station-position-container">
-                  <a class="station-position-wrap">
-                    <div class="station-position-img">
-                      <img src="/images/28.webp" alt="역세권 포지션" />
+                <div class="swiper-slide station-container">
+                  <a href="#" class="statinon-box">
+                    <div class="station-thum">
+                      <div class="station-img">
+                        <img src="/images/28.webp" alt="역세권 포지션" />
+                      </div>
                     </div>
-                    <div class="station-position-info-box">
-                      <div class="station-position-job">
+                    <div class="station-info">
+                      <div class="station-job-name">
                         백엔드 개발자(Node.js) (3년 이상)
                       </div>
                       <div class="station-position-company">비비던트코리아</div>
                       <div class="station-position-etc">지역·경력</div>
                     </div>
                   </a>
-                  <a href="#" class="xi-bookmark-o station-bookmark"></a>
+                  <i class="xi-bookmark-o station-bookmark"></i>
                 </div>
-              </div>
-              <div class="station-position-container-set">
-                <div class="station-position-container">
-                  <a class="station-position-wrap">
-                    <div class="station-position-img">
-                      <img src="/images/28.webp" alt="역세권 포지션" />
+                <div class="swiper-slide station-container">
+                  <a href="#" class="statinon-box">
+                    <div class="station-thum">
+                      <div class="station-img">
+                        <img src="/images/28.webp" alt="역세권 포지션" />
+                      </div>
                     </div>
-                    <div class="station-position-info-box">
-                      <div class="station-position-job">
+                    <div class="station-info">
+                      <div class="station-job-name">
                         백엔드 개발자(Node.js) (3년 이상)
                       </div>
                       <div class="station-position-company">비비던트코리아</div>
                       <div class="station-position-etc">지역·경력</div>
                     </div>
                   </a>
-                  <div class="xi-bookmark-o station-bookmark"></div>
+                  <i class="xi-bookmark-o station-bookmark"></i>
                 </div>
-                <div class="station-position-container">
-                  <a class="station-position-wrap">
-                    <div class="station-position-img">
-                      <img src="/images/28.webp" alt="역세권 포지션" />
+                <div class="swiper-slide station-container">
+                  <a href="#" class="statinon-box">
+                    <div class="station-thum">
+                      <div class="station-img">
+                        <img src="/images/28.webp" alt="역세권 포지션" />
+                      </div>
                     </div>
-                    <div class="station-position-info-box">
-                      <div class="station-position-job">
+                    <div class="station-info">
+                      <div class="station-job-name">
                         백엔드 개발자(Node.js) (3년 이상)
                       </div>
                       <div class="station-position-company">비비던트코리아</div>
                       <div class="station-position-etc">지역·경력</div>
                     </div>
                   </a>
-                  <a href="#" class="xi-bookmark-o station-bookmark"></a>
+                  <i class="xi-bookmark-o station-bookmark"></i>
                 </div>
               </div>
             </div>
           </div>
           <!-- 요즘 뜨는 포지션(4) -->
-          <div class="popular-job-box">
+          <div class="latest popular-job-box">
             <div class="box-top">
               <h3 class="box-title title">요즘 뜨는 포지션</h3>
-              <div class="button-box">
-                <button class="xi-angle-left left-button"></button>
-                <button class="xi-angle-right right-button"></button>
-              </div>
             </div>
-            <div class="swiper four-card">
+            <div class="swiper latest-slide">
               <div class="swiper-wrapper box-container-set">
                 <div class="swiper-slide box-container">
                   <a href="#" class="box-content-wrap">

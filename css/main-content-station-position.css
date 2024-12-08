@@ -6,94 +6,148 @@
   display: flex;
   align-items: center;
 }
-.gangnam {
-  padding: 7px 8px 7px 12px;
+.select-station {
+  position: relative;
+}
+.selected-position {
+  height: 32px;
+  padding: 7px 9px 7px 11px;
   border: 1px solid rgb(212, 212, 212);
   color: rgb(23, 23, 25);
   background-color: white;
   border-radius: 10px;
-  font-size: 14px;
-  font-weight: 700;
-}
-.gangnam span {
+  font-size: 15px;
+  font-weight: 500;
   color: rgb(23, 23, 25);
   transition: all 0.5s;
 }
-.gangnam:hover {
+.selected-position:hover {
   background-color: rgb(230, 230, 230);
 }
-
-.station-positions {
-  width: 100%;
+.station-list {
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.station-position-container-set {
-  width: 100%;
-  display: flex;
-  gap: 30px;
-}
-.station-position-container {
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-}
-.station-position-wrap {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  gap: 15px;
-}
-.station-bookmark {
   position: absolute;
-  right: 10px;
-  top: 45px;
+  top: 42px;
+  left: 0;
+  border-radius: 16px;
+  width: 148px;
+  height: 436px;
+  border: 1px solid rgb(199, 199, 199);
+  background-color: #fff;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: left;
+  z-index: 2;
   display: none;
-  font-size: 20px;
-  color: rgb(192, 192, 192);
 }
-.station-position-container:hover .station-bookmark {
+.station-list-active {
   display: block;
 }
-
-.station-position-wrap:hover .station-position-img img {
-  transform: scale(1.05, 1.05);
+.station-active::after {
+  content: "✔";
+  position: absolute;
+  right: 20px;
 }
-.station-position-wrap .station-position-img {
+.station {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 16px;
+  align-items: center;
+  padding-left: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.station-list li:hover {
+  background-color: rgb(230, 230, 230);
+}
+.station-active {
+  font-weight: 600;
+  color: rgb(0, 102, 255);
+  display: flex;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 16px;
+  align-items: center;
+  padding-left: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+/* 목록 */
+.station-constainer-set {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(2, calc((100% - 20px) / 2));
+  grid-template-rows: repeat(3, calc((100%-20px) / 3));
+  gap: 20px;
+}
+.station-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.statinon-box {
+  display: flex;
+  height: 100%;
+}
+.station-thum {
   width: 120px;
   height: 90px;
   background-color: lightgray;
   border-radius: 12px;
   overflow: hidden;
+  margin-right: 15px;
 }
-.station-position-img img {
+.station-thum .station-img {
+  width: 100%;
+  height: 100%;
+}
+.station-thum:hover .station-img img {
+  transform: scale(1.05, 1.05);
+}
+
+.station-thum .station-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: all 0.3s;
 }
-.station-position-wrap .station-position-info-box {
+.station-info {
   display: flex;
   width: 343px;
-  height: 66px;
+  height: 100%;
   flex-direction: column;
   align-items: start;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 8px;
+  margin: auto 0;
 }
-.station-position-info-box .station-position-job {
+.station-info .station-job-name {
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 2px;
 }
-.station-position-company {
+.station-info .station-position-company {
   color: rgba(55, 56, 60, 0.608);
   font-weight: 500;
   font-size: 13px;
 }
-.station-position-etc {
+.station-info .station-position-etc {
   color: rgba(55, 56, 60, 0.608);
   font-weight: 500;
   font-size: 13px;
+}
+.station-bookmark {
+  opacity: 0;
+  font-size: 20px;
+  color: rgb(192, 192, 192);
+  cursor: pointer;
+}
+.station-container:hover .station-bookmark {
+  opacity: 1;
 }
