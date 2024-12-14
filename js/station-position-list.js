@@ -8,6 +8,54 @@ window.addEventListener("load", function () {
   let showList = false;
   let clickedStation;
 
+  const STATION_POSITION_URL = (_metro = "metro-1") => `/apis/${_metro}.json`;
+
+  const getData = async (_metro) => {
+    try {
+      const res = await fetch(STATION_POSITION_URL(_metro));
+      const data = await res.json();
+      const ArrayData = data.positions;
+      const htmlContentArr = ArrayData.map((item) => {
+        return `<div class="swiper-slide station-container">
+                  <a href="#" class="statinon-box">
+                    <div class="station-thum">
+                      <div class="station-img">
+                        <img src=${item.title_img.origin} alt="역세권 포지션" />
+                      </div>
+                    </div>
+                    <div class="station-info">
+                      <div class="station-job-name">
+                        ${item.position}
+                      </div>
+                      <div class="station-position-company">${
+                        item.company.name
+                      }</div>
+                      <div class="station-position-etc">${
+                        item.address.location
+                      } ${item.address.district}·${
+          item.career.annual_from
+            ? item.career.annual_to >= 100
+              ? `경력 ${item.career.annual_from}년 이상`
+              : `경력 ${item.career.annual_from}-${item.career.annual_to}년`
+            : `신입-경력 ${item.career.annual_to}년`
+        }</div>
+                    </div>
+                  </a>
+                  <i class="xi-bookmark-o station-bookmark"></i>
+                </div>`;
+      });
+      const htmlContent = htmlContentArr.join("");
+      const staionJobWraper = document.querySelector(
+        ".station-slide .station-constainer-set "
+      );
+      staionJobWraper.innerHTML = htmlContent;
+      console.log("갱신완료");
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  getData();
+
   const openList = () => {
     showList = true;
     stationListWrap.classList.add("station-list-active");
@@ -38,9 +86,8 @@ window.addEventListener("load", function () {
       // 눌렀던 메뉴와 다른 메뉴들이 같은가?
       // console.log(item.target);
       clickedStation = item.target.innerHTML;
-      console.log("클릭한 역:", clickedStation);
+
       stationList.forEach((item, index) => {
-        console.log(item);
         if (item.innerHTML === clickedStation) {
           item.classList.add("station-active");
           item.classList.remove("station");
@@ -49,6 +96,10 @@ window.addEventListener("load", function () {
           item.classList.remove("station-active");
         }
       });
+      console.log(item.target.id);
+      STATION_POSITION_URL(item.target.id);
+      console.log(STATION_POSITION_URL(item.target.id));
+      getData(item.target.id);
     });
   });
 });

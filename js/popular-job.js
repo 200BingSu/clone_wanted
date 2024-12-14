@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
                         <img src=${item.title_img.thumb} alt="직업 사진" />
                       </div>
                       <div class="box-info-top">
-                        <div class="job-pass">${
+                        <div class="job-pass">합격 보상금 ${
                           item.reward.formatted_total
                         }</div>
                       </div>

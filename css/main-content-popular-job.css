@@ -24,7 +24,7 @@
   width: 250px;
   height: 100%;
   position: relative;
-  border-radius: 12px;
+
   overflow: hidden;
 }
 .box-container .box-content-wrap {

@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
     try {
       const res = await fetch(LATEST_JOB_DATA_URL);
       const data = await res.json();
-      const ArrayData = data.positions;
+      const ArrayData = data.data;
       const htmlContentArr = ArrayData.map((item) => {
         return `<div class="swiper-slide box-container">
                   <a href="#" class="box-content-wrap">
@@ -36,9 +36,10 @@ window.addEventListener("load", function () {
                   <a href="#" class="xi-bookmark-o bookmark"></a>
                 </div>`;
       });
+
       const htmlContent = htmlContentArr.join("");
       const latestJobWraper = document.querySelector(
-        ".latest-slide . box-container-set "
+        ".latest-slide .box-container-set "
       );
       latestJobWraper.innerHTML = htmlContent;
     } catch (error) {
