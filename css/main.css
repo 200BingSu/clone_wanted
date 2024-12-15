@@ -33,33 +33,13 @@
   margin-right: 10px;
 }
 
-/* 슬라이드 버튼 */
-/* .button-box {
-  display: flex;
-  width: 64px;
-  height: 32px;
-  border: 1px solid rgb(212, 212, 212);
-  border-radius: 12px;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-.button-box .left-button {
-  width: 31px;
-  height: 30px;
-  border: none;
+.prev-button i,
+.next-button i {
   color: rgb(212, 212, 212);
-  background-color: white;
 }
-.button-box .right-button {
-  width: 31px;
-  height: 30px;
-  border: none;
-  background-color: white;
+
+.button-active,
+.button-active i {
+  background-color: rgb(230, 230, 230);
   color: rgb(51, 51, 51);
 }
-.left-button:hover {
-  background-color: rgb(230, 230, 230);
-}
-.right-button:hover {
-  background-color: rgb(230, 230, 230);
-} */

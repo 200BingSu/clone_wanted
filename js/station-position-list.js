@@ -5,6 +5,17 @@ window.addEventListener("load", function () {
   const stationBtnNameTag = document.querySelector(".selected-position span");
   const stationBtnArrowTag = document.querySelector(".selected-position i");
 
+  let stationSlide = new Swiper(".station-slide", {
+    slidesPerView: 2,
+    grid: {
+      rows: 3,
+    },
+    navigation: {
+      nextEl: ".station-slide .next-button",
+      prevEl: ".station-slide .prev-button",
+    },
+  });
+
   let showList = false;
   let clickedStation;
 
@@ -49,11 +60,14 @@ window.addEventListener("load", function () {
         ".station-slide .station-constainer-set "
       );
       staionJobWraper.innerHTML = htmlContent;
-      console.log("갱신완료");
+      if (stationSlide) {
+        stationSlide.update();
+      }
     } catch (error) {
       console.log(error);
     }
   };
+
   getData();
 
   const openList = () => {
