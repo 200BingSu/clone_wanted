@@ -2,6 +2,9 @@
 .theme-position {
   height: 312px;
 }
+.theme-slide {
+  overflow: visible;
+}
 .theme-position-container {
   display: flex;
   align-items: center;
@@ -48,4 +51,40 @@
   color: rgba(55, 56, 60, 0.61);
   font-weight: 600;
   font-size: 17px;
+}
+.theme-slide .prev-button {
+  display: flex;
+  width: 31px;
+  height: 31px;
+  color: rgb(212, 212, 212);
+  background-color: white;
+  border: 1px solid rgb(212, 212, 212);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 31px;
+  top: -46px;
+  z-index: 99;
+}
+.theme-slide .next-button {
+  display: flex;
+  width: 31px;
+  height: 31px;
+  background-color: white;
+  color: rgb(51, 51, 51);
+  border: 1px solid rgb(212, 212, 212);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: -46px;
+  z-index: 99;
 }

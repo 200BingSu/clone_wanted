@@ -1,144 +1,66 @@
 {
   "data": [
     {
-      "id": 252567,
+      "id": 256182,
       "status": "active",
-      "position": "[주식회사 제이엘케이] RA 신입 및 경력_근무지 일본",
+      "position": "머신러닝/딥러닝 (AI) 엔지니어",
       "is_bookmark": false,
-      "category_parent_id": 515,
+      "category_parent_id": 518,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__400_400.jpg"
+        "origin": "https://static.wanted.co.kr/images/company/7146/clzaxjkpc4jc8tma__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/7146/clzaxjkpc4jc8tma__400_400.jpg"
       },
       "address": {
         "location": "서울",
-        "district": null
+        "district": "서초구"
       },
       "reward": {
-        "formatted_total": ""
+        "formatted_total": "100만원"
       },
       "career": {
-        "annual_to": 1,
+        "annual_to": 5,
         "annual_from": 0
       },
       "company": {
-        "id": 1031,
-        "name": "원티드 재팬(wanted)"
+        "id": 7146,
+        "name": "모니터코퍼레이션"
       }
     },
     {
-      "id": 252566,
+      "id": 256166,
       "status": "active",
-      "position": "[주식회사 제이엘케이] 재무회계 경력자_근무지 일본",
+      "position": "[이커머스] 퍼포먼스 마케터",
       "is_bookmark": false,
-      "category_parent_id": 508,
+      "category_parent_id": 523,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__400_400.jpg"
+        "origin": "https://static.wanted.co.kr/images/company/49285/n4uayn7bq49mtzmk__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/49285/n4uayn7bq49mtzmk__400_400.png"
       },
       "address": {
         "location": "서울",
-        "district": null
+        "district": "금천구"
       },
       "reward": {
-        "formatted_total": ""
+        "formatted_total": "100만원"
       },
       "career": {
-        "annual_to": 100,
-        "annual_from": 3
+        "annual_to": 6,
+        "annual_from": 2
       },
       "company": {
-        "id": 1031,
-        "name": "원티드 재팬(wanted)"
+        "id": 49285,
+        "name": "데이바이미"
       }
     },
     {
-      "id": 252564,
+      "id": 256177,
       "status": "active",
-      "position": "[주식회사 제이엘케이] QA 경력자_근무지 일본",
-      "is_bookmark": false,
-      "category_parent_id": 513,
-      "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__400_400.jpg"
-      },
-      "address": {
-        "location": "서울",
-        "district": null
-      },
-      "reward": {
-        "formatted_total": ""
-      },
-      "career": {
-        "annual_to": 100,
-        "annual_from": 3
-      },
-      "company": {
-        "id": 1031,
-        "name": "원티드 재팬(wanted)"
-      }
-    },
-    {
-      "id": 252561,
-      "status": "active",
-      "position": "【株式会社ヌーラボ】【SRE】Product SREs(Backlog )_근무지 일본",
+      "position": "Back-end Engineer",
       "is_bookmark": false,
       "category_parent_id": 518,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__400_400.jpg"
-      },
-      "address": {
-        "location": "서울",
-        "district": null
-      },
-      "reward": {
-        "formatted_total": ""
-      },
-      "career": {
-        "annual_to": 15,
-        "annual_from": 5
-      },
-      "company": {
-        "id": 1031,
-        "name": "원티드 재팬(wanted)"
-      }
-    },
-    {
-      "id": 252562,
-      "status": "active",
-      "position": "【株式会社ヌーラボ】【SRE】ソフトウェアエンジニア(Platform Engineering team)_근무지 일본",
-      "is_bookmark": false,
-      "category_parent_id": 518,
-      "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/1031/4qgyrzgpxoekp9nx__400_400.jpg"
-      },
-      "address": {
-        "location": "서울",
-        "district": null
-      },
-      "reward": {
-        "formatted_total": ""
-      },
-      "career": {
-        "annual_to": 15,
-        "annual_from": 5
-      },
-      "company": {
-        "id": 1031,
-        "name": "원티드 재팬(wanted)"
-      }
-    },
-    {
-      "id": 252546,
-      "status": "active",
-      "position": "DA (Data Architect)",
-      "is_bookmark": false,
-      "category_parent_id": 518,
-      "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/20542/nkfoqsjo4zy3i6wy__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/20542/nkfoqsjo4zy3i6wy__400_400.jpg"
+        "origin": "https://static.wanted.co.kr/images/company/11023/pwkmaa5ni1mxluox__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/11023/pwkmaa5ni1mxluox__400_400.png"
       },
       "address": {
         "location": "서울",
@@ -148,23 +70,49 @@
         "formatted_total": "100만원"
       },
       "career": {
-        "annual_to": 15,
-        "annual_from": 5
+        "annual_to": 100,
+        "annual_from": 3
       },
       "company": {
-        "id": 20542,
-        "name": "아인잡(AINJOB)"
+        "id": 11023,
+        "name": "누비랩"
       }
     },
     {
-      "id": 252543,
+      "id": 251843,
       "status": "active",
-      "position": "백엔드 개발 리더 PM (8년 이상)",
+      "position": "[블로코어] Web3 사업개발  BD",
+      "is_bookmark": false,
+      "category_parent_id": 507,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/1898/irjilavpexalxlw5__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/1898/irjilavpexalxlw5__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "서초구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 1898,
+        "name": "에임드"
+      }
+    },
+    {
+      "id": 251161,
+      "status": "active",
+      "position": "주문중계파트 Technical Account Manager",
       "is_bookmark": false,
       "category_parent_id": 518,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/20542/nkfoqsjo4zy3i6wy__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/20542/nkfoqsjo4zy3i6wy__400_400.jpg"
+        "origin": "https://static.wanted.co.kr/images/company/436/7fv7zekqeqfbmqgi__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/436/7fv7zekqeqfbmqgi__400_400.jpg"
       },
       "address": {
         "location": "서울",
@@ -174,23 +122,49 @@
         "formatted_total": "100만원"
       },
       "career": {
-        "annual_to": 15,
-        "annual_from": 8
+        "annual_to": 5,
+        "annual_from": 1
       },
       "company": {
-        "id": 20542,
-        "name": "아인잡(AINJOB)"
+        "id": 436,
+        "name": "바로고(barogo)"
       }
     },
     {
-      "id": 252542,
+      "id": 250703,
       "status": "active",
-      "position": "UIUX 디자이너/기획",
+      "position": "[Publishing] Japan Publishing PM",
       "is_bookmark": false,
-      "category_parent_id": 511,
+      "category_parent_id": 507,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/20542/nkfoqsjo4zy3i6wy__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/20542/nkfoqsjo4zy3i6wy__400_400.jpg"
+        "origin": "https://static.wanted.co.kr/images/company/521/27csffd2ls7lkpeo__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/521/27csffd2ls7lkpeo__400_400.jpg"
+      },
+      "address": {
+        "location": "경기",
+        "district": "용인시"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 15,
+        "annual_from": 5
+      },
+      "company": {
+        "id": 521,
+        "name": "크래프톤(Krafton)"
+      }
+    },
+    {
+      "id": 250057,
+      "status": "active",
+      "position": "[XR 콘텐츠 클라우드] 마케팅",
+      "is_bookmark": false,
+      "category_parent_id": 523,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/667/p0iwjeg2eofum9oa__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/667/p0iwjeg2eofum9oa__400_400.png"
       },
       "address": {
         "location": "서울",
@@ -201,74 +175,256 @@
       },
       "career": {
         "annual_to": 6,
-        "annual_from": 1
+        "annual_from": 3
       },
       "company": {
-        "id": 20542,
-        "name": "아인잡(AINJOB)"
+        "id": 667,
+        "name": "올림플래닛(OLIM PLANET)"
       }
     },
     {
-      "id": 252516,
+      "id": 247928,
       "status": "active",
-      "position": "​​[인턴] SNS 콘텐츠 마케팅",
+      "position": "CX 매니저 (아웃소싱 운영 파트)",
       "is_bookmark": false,
-      "category_parent_id": 523,
+      "category_parent_id": 510,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/8382/gdh67ny7ygjkuywd__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/8382/gdh67ny7ygjkuywd__400_400.jpg"
+        "origin": "https://static.wanted.co.kr/images/company/14509/tpnmqphhuryzk4ai__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/14509/tpnmqphhuryzk4ai__400_400.png"
       },
       "address": {
-        "location": "경기",
-        "district": "성남시"
+        "location": "서울",
+        "district": "강남구"
       },
       "reward": {
-        "formatted_total": ""
+        "formatted_total": "100만원"
       },
       "career": {
-        "annual_to": 1,
-        "annual_from": 0
+        "annual_to": 100,
+        "annual_from": 2
       },
       "company": {
-        "id": 8382,
-        "name": "운칠기삼"
+        "id": 14509,
+        "name": "라포랩스(퀸잇)"
       }
     },
     {
-      "id": 252534,
+      "id": 256176,
       "status": "active",
-      "position": "[인턴] 북미 콘텐츠 마케팅 (영상PD)",
+      "position": "Python 개발자",
       "is_bookmark": false,
-      "category_parent_id": 524,
+      "category_parent_id": 518,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/8382/gdh67ny7ygjkuywd__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/8382/gdh67ny7ygjkuywd__400_400.jpg"
+        "origin": "https://static.wanted.co.kr/images/company/32252/vajdkvgoevxrrrhm__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/32252/vajdkvgoevxrrrhm__400_400.jpg"
       },
       "address": {
-        "location": "경기",
-        "district": "성남시"
+        "location": "서울",
+        "district": ""
       },
       "reward": {
-        "formatted_total": ""
+        "formatted_total": "100만원"
       },
       "career": {
-        "annual_to": 1,
-        "annual_from": 0
+        "annual_to": 10,
+        "annual_from": 2
       },
       "company": {
-        "id": 8382,
-        "name": "운칠기삼"
+        "id": 32252,
+        "name": "미니레코드"
       }
     },
     {
-      "id": 247882,
+      "id": 256171,
       "status": "active",
-      "position": "서비스 기획",
+      "position": "컨설팅 담당자",
       "is_bookmark": false,
       "category_parent_id": 507,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/7248/rifh0bwgv0fwrcb7__1080_790.png",
-        "thumb": "https://static.wanted.co.kr/images/company/7248/rifh0bwgv0fwrcb7__400_400.png"
+        "origin": "https://static.wanted.co.kr/images/company/30845/uznbvkldtsw3kfp4__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/30845/uznbvkldtsw3kfp4__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "마포구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 15,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 30845,
+        "name": "프라이빗테크놀로지"
+      }
+    },
+    {
+      "id": 256183,
+      "status": "active",
+      "position": "[쿠팡]마켓플레이스 브랜드/셀러 영업 및 성장관리(SMB)",
+      "is_bookmark": false,
+      "category_parent_id": 530,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/53/zkuycl59i67pmnhl__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/53/zkuycl59i67pmnhl__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 6,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 53,
+        "name": "쿠팡"
+      }
+    },
+    {
+      "id": 256164,
+      "status": "active",
+      "position": "Business Operation Manager",
+      "is_bookmark": false,
+      "category_parent_id": 510,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/30423/mv5oneskdzxvilsd__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/30423/mv5oneskdzxvilsd__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "관악구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 30423,
+        "name": "레브잇"
+      }
+    },
+    {
+      "id": 256175,
+      "status": "active",
+      "position": "린다이어트 CX매니저",
+      "is_bookmark": false,
+      "category_parent_id": 510,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/11413/13wyq9wds1agsfnf__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/11413/13wyq9wds1agsfnf__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 10,
+        "annual_from": 2
+      },
+      "company": {
+        "id": 11413,
+        "name": "인티그레이션(메디스트림)"
+      }
+    },
+    {
+      "id": 256172,
+      "status": "active",
+      "position": "Front-end Engineer",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/11023/pwkmaa5ni1mxluox__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/11023/pwkmaa5ni1mxluox__400_400.png"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 100,
+        "annual_from": 3
+      },
+      "company": {
+        "id": 11023,
+        "name": "누비랩"
+      }
+    },
+    {
+      "id": 256170,
+      "status": "active",
+      "position": "정보보안 담당자(신입 ~ 2년)",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/14878/x3unjwjljwpfvnkc__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/14878/x3unjwjljwpfvnkc__400_400.jpg"
+      },
+      "address": {
+        "location": "경기",
+        "district": "화성시"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 2,
+        "annual_from": 0
+      },
+      "company": {
+        "id": 14878,
+        "name": "글로벌스탠다드테크놀로지"
+      }
+    },
+    {
+      "id": 256165,
+      "status": "active",
+      "position": "[푸드올로지] 인플루언서 마케터",
+      "is_bookmark": false,
+      "category_parent_id": 523,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/16110/pzo5vptjuib3xlyz__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/16110/pzo5vptjuib3xlyz__400_400.jpg"
+      },
+      "address": {
+        "location": "서울",
+        "district": "강남구"
+      },
+      "reward": {
+        "formatted_total": "100만원"
+      },
+      "career": {
+        "annual_to": 5,
+        "annual_from": 1
+      },
+      "company": {
+        "id": 16110,
+        "name": "어댑트(adaptInc.)"
+      }
+    },
+    {
+      "id": 256163,
+      "status": "active",
+      "position": "서비스개발본부 보안/인프라팀 시스템엔지니어",
+      "is_bookmark": false,
+      "category_parent_id": 518,
+      "title_img": {
+        "origin": "https://static.wanted.co.kr/images/company/473/eedpv30ilrpae0sq__1080_790.png",
+        "thumb": "https://static.wanted.co.kr/images/company/473/eedpv30ilrpae0sq__400_400.png"
       },
       "address": {
         "location": "서울",
@@ -278,235 +434,79 @@
         "formatted_total": "100만원"
       },
       "career": {
-        "annual_to": 15,
-        "annual_from": 5
+        "annual_to": 8,
+        "annual_from": 3
       },
       "company": {
-        "id": 7248,
-        "name": "캐롯손해보험"
+        "id": 473,
+        "name": "비큐에이아이"
       }
     },
     {
-      "id": 247664,
+      "id": 256162,
       "status": "active",
-      "position": "퍼포먼스 마케터(6년 이상)",
+      "position": "[메디필] 해외사업 일본 담당자 (시니어)",
       "is_bookmark": false,
-      "category_parent_id": 523,
+      "category_parent_id": 530,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/3851/fykpetcpzlkbat0g__1080_790.png",
-        "thumb": "https://static.wanted.co.kr/images/company/3851/fykpetcpzlkbat0g__400_400.png"
+        "origin": "https://static.wanted.co.kr/images/company/10393/zbmyp076kjakvixf__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10393/zbmyp076kjakvixf__400_400.jpg"
       },
       "address": {
         "location": "서울",
-        "district": "서초구"
-      },
-      "reward": {
-        "formatted_total": "100만원"
-      },
-      "career": {
-        "annual_to": 10,
-        "annual_from": 6
-      },
-      "company": {
-        "id": 3851,
-        "name": "팩트블록(FactBlock)"
-      }
-    },
-    {
-      "id": 252539,
-      "status": "active",
-      "position": "글로벌 D2C시스템 운영 PMO",
-      "is_bookmark": false,
-      "category_parent_id": 507,
-      "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/1100/zeftmrmizcemvzb6__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/1100/zeftmrmizcemvzb6__400_400.jpg"
-      },
-      "address": {
-        "location": "서울",
-        "district": "서초구"
-      },
-      "reward": {
-        "formatted_total": "100만원"
-      },
-      "career": {
-        "annual_to": 9,
-        "annual_from": 5
-      },
-      "company": {
-        "id": 1100,
-        "name": "펑타이그레이터차이나(피티코리아)"
-      }
-    },
-    {
-      "id": 252538,
-      "status": "active",
-      "position": "재무팀 재무회계 팀장",
-      "is_bookmark": false,
-      "category_parent_id": 507,
-      "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/13316/nxitbyktz7r1pt1y__1080_790.png",
-        "thumb": "https://static.wanted.co.kr/images/company/13316/nxitbyktz7r1pt1y__400_400.png"
-      },
-      "address": {
-        "location": "",
-        "district": null
+        "district": "강남구"
       },
       "reward": {
         "formatted_total": "100만원"
       },
       "career": {
         "annual_to": 100,
-        "annual_from": 10
+        "annual_from": 3
       },
       "company": {
-        "id": 13316,
-        "name": "바잉스퀘어"
+        "id": 10393,
+        "name": "스킨이데아"
       }
     },
     {
-      "id": 252537,
+      "id": 256161,
       "status": "active",
-      "position": "NPU HW Engineer(전문연구요원)",
-      "is_bookmark": false,
-      "category_parent_id": 518,
-      "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__400_400.jpg"
-      },
-      "address": {
-        "location": "대구",
-        "district": "동구"
-      },
-      "reward": {
-        "formatted_total": "100만원"
-      },
-      "career": {
-        "annual_to": 4,
-        "annual_from": 0
-      },
-      "company": {
-        "id": 2534,
-        "name": "칩스앤미디어"
-      }
-    },
-    {
-      "id": 252536,
-      "status": "active",
-      "position": "반도체 RTL Engineer (대구근무)",
-      "is_bookmark": false,
-      "category_parent_id": 518,
-      "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__400_400.jpg"
-      },
-      "address": {
-        "location": "대구",
-        "district": "동구"
-      },
-      "reward": {
-        "formatted_total": "100만원"
-      },
-      "career": {
-        "annual_to": 14,
-        "annual_from": 5
-      },
-      "company": {
-        "id": 2534,
-        "name": "칩스앤미디어"
-      }
-    },
-    {
-      "id": 252535,
-      "status": "active",
-      "position": "RTL Design/Verification Engineer(9년 이상)",
-      "is_bookmark": false,
-      "category_parent_id": 518,
-      "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__400_400.jpg"
-      },
-      "address": {
-        "location": "대구",
-        "district": "동구"
-      },
-      "reward": {
-        "formatted_total": "100만원"
-      },
-      "career": {
-        "annual_to": 16,
-        "annual_from": 9
-      },
-      "company": {
-        "id": 2534,
-        "name": "칩스앤미디어"
-      }
-    },
-    {
-      "id": 252533,
-      "status": "active",
-      "position": "FW Engineer(9년 이상)",
-      "is_bookmark": false,
-      "category_parent_id": 518,
-      "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__400_400.jpg"
-      },
-      "address": {
-        "location": "대구",
-        "district": "동구"
-      },
-      "reward": {
-        "formatted_total": "100만원"
-      },
-      "career": {
-        "annual_to": 16,
-        "annual_from": 9
-      },
-      "company": {
-        "id": 2534,
-        "name": "칩스앤미디어"
-      }
-    },
-    {
-      "id": 241176,
-      "status": "active",
-      "position": "Regional Sales Manager",
+      "position": "[메디필] 해외사업 일본 담당자 (주니어)",
       "is_bookmark": false,
       "category_parent_id": 530,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/12455/7lboleriipx8dwec__1080_790.png",
-        "thumb": "https://static.wanted.co.kr/images/company/12455/7lboleriipx8dwec__400_400.png"
+        "origin": "https://static.wanted.co.kr/images/company/10393/zbmyp076kjakvixf__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10393/zbmyp076kjakvixf__400_400.jpg"
       },
       "address": {
-        "location": "경기",
-        "district": "광주시"
+        "location": "서울",
+        "district": "강남구"
       },
       "reward": {
         "formatted_total": "100만원"
       },
       "career": {
-        "annual_to": 15,
-        "annual_from": 7
+        "annual_to": 9,
+        "annual_from": 0
       },
       "company": {
-        "id": 12455,
-        "name": "트릿지"
+        "id": 10393,
+        "name": "스킨이데아"
       }
     },
     {
-      "id": 252532,
+      "id": 256158,
       "status": "active",
-      "position": "HW Engineer (전문연구요원)",
+      "position": "[메디필] 해외사업(북미,유럽,동남아) 담당자 (주니어)",
       "is_bookmark": false,
-      "category_parent_id": 518,
+      "category_parent_id": 530,
       "title_img": {
-        "origin": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__1080_790.jpg",
-        "thumb": "https://static.wanted.co.kr/images/company/2534/okmayrveq6d8hw2w__400_400.jpg"
+        "origin": "https://static.wanted.co.kr/images/company/10393/zbmyp076kjakvixf__1080_790.jpg",
+        "thumb": "https://static.wanted.co.kr/images/company/10393/zbmyp076kjakvixf__400_400.jpg"
       },
       "address": {
-        "location": "대구",
-        "district": "동구"
+        "location": "서울",
+        "district": "강남구"
       },
       "reward": {
         "formatted_total": "100만원"
@@ -516,8 +516,8 @@
         "annual_from": 0
       },
       "company": {
-        "id": 2534,
-        "name": "칩스앤미디어"
+        "id": 10393,
+        "name": "스킨이데아"
       }
     }
   ]
