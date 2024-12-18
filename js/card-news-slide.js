@@ -7,4 +7,5 @@ window.addEventListener("load", function () {
       prevEl: ".card-news-containers .prev-button",
     },
   });
+  console.log(slideCardNews.slide[0]);
 });
